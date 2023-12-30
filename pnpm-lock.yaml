@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@aws-amplify/core':
+    specifier: ^6.0.9
+    version: 6.0.9
   '@aws-amplify/ui-react':
     specifier: ^6.0.7
     version: 6.0.7(@types/react@18.2.46)(aws-amplify@6.0.9)(react-dom@18.2.0)(react@18.2.0)
@@ -974,7 +977,7 @@ packages:
     engines: {node: '>=16.0.0'}
     dependencies:
       '@aws-crypto/util': 5.2.0
-      '@aws-sdk/types': 3.398.0
+      '@aws-sdk/types': 3.468.0
       tslib: 2.6.2
     dev: false
 
@@ -993,7 +996,7 @@ packages:
   /@aws-crypto/util@5.2.0:
     resolution: {integrity: sha512-4RkU9EsI6ZpBve5fseQlGNUWKMa1RLPQ1dnjnQoe07ldfIzcsGb5hC5W0Dm7u423KWzawlrpbjXBrXCEv9zazQ==}
     dependencies:
-      '@aws-sdk/types': 3.398.0
+      '@aws-sdk/types': 3.468.0
       '@smithy/util-utf8': 2.0.2
       tslib: 2.6.2
     dev: false
