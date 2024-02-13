@@ -118,7 +118,7 @@ packages:
     dependencies:
       '@aws-amplify/api-rest': 4.0.16(@aws-amplify/core@6.0.16)
       '@aws-amplify/core': 6.0.16
-      '@aws-amplify/data-schema-types': 0.7.2
+      '@aws-amplify/data-schema-types': 0.7.3
       '@aws-sdk/types': 3.387.0
       graphql: 15.8.0
       rxjs: 7.8.1
@@ -560,15 +560,15 @@ packages:
       rxjs: 7.8.1
     dev: true
 
-  /@aws-amplify/data-schema-types@0.7.2:
-    resolution: {integrity: sha512-X3AE95rfeeT8NmUwI4PfWlijn3354OpIxIGigzTpPTmRwg/OAKQE7cB9HL1ITfKNh4hrCbPMdl8I7jePSwpNGQ==}
+  /@aws-amplify/data-schema-types@0.7.3:
+    resolution: {integrity: sha512-C9RKp83oEgvHMRaWhToBhMeK3Ij7XfwGgf1wH5O/xSClrrKzOyO9Cccq8JyFRlJZdnzgBMSBeNa3bGwbjsOYlg==}
     dependencies:
       rxjs: 7.8.1
 
   /@aws-amplify/data-schema@0.12.14:
     resolution: {integrity: sha512-uh8TMrsxOsCM0MZ+atmq7t5CbQFtd7hLNucruB2dXXIXonn3moF55i4hl91y3tfpXxRADCDazIaqMSRAwZ/6mw==}
     dependencies:
-      '@aws-amplify/data-schema-types': 0.7.2
+      '@aws-amplify/data-schema-types': 0.7.3
     dev: true
 
   /@aws-amplify/datastore@5.0.16(@aws-amplify/core@6.0.16):
@@ -1045,7 +1045,7 @@ packages:
       '@aws-crypto/sha256-js': 3.0.0
       '@aws-crypto/supports-web-crypto': 3.0.0
       '@aws-crypto/util': 3.0.0
-      '@aws-sdk/types': 3.398.0
+      '@aws-sdk/types': 3.511.0
       '@aws-sdk/util-locate-window': 3.495.0
       '@aws-sdk/util-utf8-browser': 3.259.0
       tslib: 1.14.1
@@ -1054,7 +1054,7 @@ packages:
     resolution: {integrity: sha512-PnNN7os0+yd1XvXAy23CFOmTbMaDxgxXtTKHybrJ39Y8kGzBATgBFibWJKH6BhytLI/Zyszs87xCOBNyBig6vQ==}
     dependencies:
       '@aws-crypto/util': 3.0.0
-      '@aws-sdk/types': 3.398.0
+      '@aws-sdk/types': 3.511.0
       tslib: 1.14.1
 
   /@aws-crypto/sha256-js@5.2.0:
@@ -1074,7 +1074,7 @@ packages:
   /@aws-crypto/util@3.0.0:
     resolution: {integrity: sha512-2OJlpeJpCR48CC8r+uKVChzs9Iungj9wkZrl8Z041DWEWvyIHILYKCPNzJghKsivj+S3mLo6BVc7mBNzdxA46w==}
     dependencies:
-      '@aws-sdk/types': 3.398.0
+      '@aws-sdk/types': 3.511.0
       '@aws-sdk/util-utf8-browser': 3.259.0
       tslib: 1.14.1
 
@@ -2637,6 +2637,7 @@ packages:
     dependencies:
       '@smithy/types': 2.9.1
       tslib: 2.6.2
+    dev: false
 
   /@aws-sdk/types@3.433.0:
     resolution: {integrity: sha512-0jEE2mSrNDd8VGFjTc1otYrwYPIkzZJEIK90ZxisKvQ/EURGBhNzWn7ejWB9XCMFT6XumYLBR0V9qq5UPisWtA==}
