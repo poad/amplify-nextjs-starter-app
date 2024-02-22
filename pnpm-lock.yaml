@@ -30,7 +30,7 @@ devDependencies:
     version: 0.5.5(aws-cdk-lib@2.110.1)(constructs@10.3.0)(zod@3.22.4)
   '@aws-amplify/backend-cli':
     specifier: ^0.9.7
-    version: 0.9.7(@aws-sdk/credential-provider-node@3.515.0)(@aws-sdk/types@3.515.0)(aws-cdk-lib@2.110.1)(aws-cdk@2.128.0)(constructs@10.3.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
+    version: 0.9.7(@aws-sdk/credential-provider-node@3.515.0)(@aws-sdk/types@3.515.0)(aws-cdk-lib@2.110.1)(aws-cdk@2.129.0)(constructs@10.3.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
   '@types/node':
     specifier: ^20.11.19
     version: 20.11.19
@@ -231,14 +231,14 @@ packages:
       - zod
     dev: true
 
-  /@aws-amplify/backend-cli@0.9.7(@aws-sdk/credential-provider-node@3.515.0)(@aws-sdk/types@3.515.0)(aws-cdk-lib@2.110.1)(aws-cdk@2.128.0)(constructs@10.3.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3):
+  /@aws-amplify/backend-cli@0.9.7(@aws-sdk/credential-provider-node@3.515.0)(@aws-sdk/types@3.515.0)(aws-cdk-lib@2.110.1)(aws-cdk@2.129.0)(constructs@10.3.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3):
     resolution: {integrity: sha512-3pXidAqvvl1HxfjchcV6gcV/gEIr5ctOrj6Ta9QVbp9hRZRHFEE9vuvOMGtitcv19TI/qOifzF7ngk2xo7bBhg==}
     engines: {node: '>=18.16.0'}
     hasBin: true
     peerDependencies:
       '@aws-sdk/types': ^3.465.0
     dependencies:
-      '@aws-amplify/backend-deployer': 0.4.7(aws-cdk-lib@2.110.1)(aws-cdk@2.128.0)(constructs@10.3.0)(typescript@5.3.3)
+      '@aws-amplify/backend-deployer': 0.4.7(aws-cdk-lib@2.110.1)(aws-cdk@2.129.0)(constructs@10.3.0)(typescript@5.3.3)
       '@aws-amplify/backend-output-schemas': 0.5.2(zod@3.22.4)
       '@aws-amplify/backend-secret': 0.4.4(aws-cdk-lib@2.110.1)(constructs@10.3.0)
       '@aws-amplify/cli-core': 0.2.0
@@ -247,7 +247,7 @@ packages:
       '@aws-amplify/form-generator': 0.6.1(react-dom@18.2.0)(react@18.2.0)
       '@aws-amplify/model-generator': 0.2.7(aws-cdk-lib@2.110.1)(constructs@10.3.0)(zod@3.22.4)
       '@aws-amplify/platform-core': 0.4.4(aws-cdk-lib@2.110.1)(constructs@10.3.0)
-      '@aws-amplify/sandbox': 0.3.14(aws-cdk-lib@2.110.1)(aws-cdk@2.128.0)(constructs@10.3.0)(typescript@5.3.3)
+      '@aws-amplify/sandbox': 0.3.14(aws-cdk-lib@2.110.1)(aws-cdk@2.129.0)(constructs@10.3.0)(typescript@5.3.3)
       '@aws-sdk/credential-provider-ini': 3.515.0(@aws-sdk/credential-provider-node@3.515.0)
       '@aws-sdk/credential-providers': 3.515.0
       '@aws-sdk/region-config-resolver': 3.515.0
@@ -290,7 +290,7 @@ packages:
       - zod
     dev: true
 
-  /@aws-amplify/backend-deployer@0.4.7(aws-cdk-lib@2.110.1)(aws-cdk@2.128.0)(constructs@10.3.0)(typescript@5.3.3):
+  /@aws-amplify/backend-deployer@0.4.7(aws-cdk-lib@2.110.1)(aws-cdk@2.129.0)(constructs@10.3.0)(typescript@5.3.3):
     resolution: {integrity: sha512-T2eFfI/UVuNotkHWWlLFMudRZqHh0ifTEC0/PCdI5zy7cCN2GWL31VEdRQJ3wlK+ji47fJytfRUSrWq9cXdcGw==}
     peerDependencies:
       aws-cdk: ^2.110.1
@@ -298,7 +298,7 @@ packages:
     dependencies:
       '@aws-amplify/platform-core': 0.4.4(aws-cdk-lib@2.110.1)(constructs@10.3.0)
       '@aws-amplify/plugin-types': 0.7.1(aws-cdk-lib@2.110.1)(constructs@10.3.0)
-      aws-cdk: 2.128.0
+      aws-cdk: 2.129.0
       execa: 8.0.1
       tsx: 4.7.1
       typescript: 5.3.3
@@ -382,7 +382,7 @@ packages:
     dependencies:
       '@aws-amplify/platform-core': 0.3.4(aws-cdk-lib@2.110.1)(constructs@10.3.0)
       '@aws-amplify/plugin-types': 0.7.1(aws-cdk-lib@2.110.1)(constructs@10.3.0)
-      '@aws-sdk/client-ssm': 3.515.0
+      '@aws-sdk/client-ssm': 3.519.0
     transitivePeerDependencies:
       - aws-cdk-lib
       - aws-crt
@@ -394,7 +394,7 @@ packages:
     dependencies:
       '@aws-amplify/platform-core': 0.4.4(aws-cdk-lib@2.110.1)(constructs@10.3.0)
       '@aws-amplify/plugin-types': 0.8.0(aws-cdk-lib@2.110.1)(constructs@10.3.0)
-      '@aws-sdk/client-ssm': 3.515.0
+      '@aws-sdk/client-ssm': 3.519.0
     transitivePeerDependencies:
       - aws-cdk-lib
       - aws-crt
@@ -455,7 +455,7 @@ packages:
       '@aws-amplify/model-generator': 0.2.7(aws-cdk-lib@2.110.1)(constructs@10.3.0)(zod@3.22.4)
       '@aws-sdk/client-amplify': 3.517.0
       '@aws-sdk/client-cloudformation': 3.515.0
-      '@aws-sdk/client-ssm': 3.515.0
+      '@aws-sdk/client-ssm': 3.519.0
       '@aws-sdk/credential-providers': 3.515.0
       zod: 3.22.4
     transitivePeerDependencies:
@@ -874,12 +874,12 @@ packages:
       constructs: 10.3.0
     dev: true
 
-  /@aws-amplify/sandbox@0.3.14(aws-cdk-lib@2.110.1)(aws-cdk@2.128.0)(constructs@10.3.0)(typescript@5.3.3):
+  /@aws-amplify/sandbox@0.3.14(aws-cdk-lib@2.110.1)(aws-cdk@2.129.0)(constructs@10.3.0)(typescript@5.3.3):
     resolution: {integrity: sha512-V5ZNsVlwcDEjtgyFY0Tp1HlfHow02+AJO02h6xvEu32c7RBu0H1bjqSE4yxMfrWz+0v5y95S3nI/Jq1zv3f9TA==}
     peerDependencies:
       aws-cdk: ^2.110.1
     dependencies:
-      '@aws-amplify/backend-deployer': 0.4.7(aws-cdk-lib@2.110.1)(aws-cdk@2.128.0)(constructs@10.3.0)(typescript@5.3.3)
+      '@aws-amplify/backend-deployer': 0.4.7(aws-cdk-lib@2.110.1)(aws-cdk@2.129.0)(constructs@10.3.0)(typescript@5.3.3)
       '@aws-amplify/backend-secret': 0.4.4(aws-cdk-lib@2.110.1)(constructs@10.3.0)
       '@aws-amplify/cli-core': 0.2.0
       '@aws-amplify/client-config': 0.5.3(aws-cdk-lib@2.110.1)(constructs@10.3.0)
@@ -889,7 +889,7 @@ packages:
       '@aws-sdk/credential-providers': 3.515.0
       '@aws-sdk/types': 3.515.0
       '@parcel/watcher': 2.4.0
-      aws-cdk: 2.128.0
+      aws-cdk: 2.129.0
       debounce-promise: 3.1.2
       glob: 10.3.10
       open: 9.1.0
@@ -1533,8 +1533,8 @@ packages:
       - aws-crt
     dev: true
 
-  /@aws-sdk/client-ssm@3.515.0:
-    resolution: {integrity: sha512-Ifvy6J3BbypLTbw9x25T9c2huKh4kTZLaAGqOWOjCyl0/0ySgJqDUuvvdxWl7dPn0sMBRq3OiXyjQLbVP/gAqg==}
+  /@aws-sdk/client-ssm@3.519.0:
+    resolution: {integrity: sha512-m6sZztkjEc/y/ZppudNpJvRwDrwD+O8hubT9ZLS+KObKkgaSftGcN2PFbL4B7FRh5y4KnrqfVlaQwKNsLA95/g==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@aws-crypto/sha256-browser': 3.0.0
@@ -3728,7 +3728,7 @@ packages:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
     dependencies:
       graphql: 15.8.0
-      tslib: 2.4.1
+      tslib: 2.6.2
     dev: true
 
   /@graphql-tools/relay-operation-optimizer@6.5.18(graphql@15.8.0):
@@ -3739,7 +3739,7 @@ packages:
       '@ardatan/relay-compiler': 12.0.0(graphql@15.8.0)
       '@graphql-tools/utils': 9.2.1(graphql@15.8.0)
       graphql: 15.8.0
-      tslib: 2.4.1
+      tslib: 2.6.2
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -5200,7 +5200,7 @@ packages:
       es-errors: 1.3.0
       get-intrinsic: 1.2.4
       is-array-buffer: 3.0.4
-      is-shared-array-buffer: 1.0.2
+      is-shared-array-buffer: 1.0.3
     dev: true
 
   /asap@2.0.6:
@@ -5257,8 +5257,8 @@ packages:
       - table
       - yaml
 
-  /aws-cdk@2.128.0:
-    resolution: {integrity: sha512-epOAr/0WKqmyaKqBc7N0Ky5++93pu+v6yVN9jNOa4JYkAkGbeTS3vR9bj/W0o94jnlgWevG3HNHr83jtRvw/4A==}
+  /aws-cdk@2.129.0:
+    resolution: {integrity: sha512-Gh/dG2aY0cvlLumYUXalg28/knVI/TrN6NZMBpRWe4gGJe/RH5JROIVB2GOEMMajkew9EiFH0ZeoC+pQ57diaQ==}
     engines: {node: '>= 14.15.0'}
     hasBin: true
     optionalDependencies:
@@ -5385,8 +5385,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001588
-      electron-to-chromium: 1.4.676
+      caniuse-lite: 1.0.30001589
+      electron-to-chromium: 1.4.679
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.23.0)
 
@@ -5449,8 +5449,8 @@ packages:
     resolution: {integrity: sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==}
     engines: {node: '>=6'}
 
-  /caniuse-lite@1.0.30001588:
-    resolution: {integrity: sha512-+hVY9jE44uKLkH0SrUTqxjxqNTOWHsbnQDIKjwkZ3lNTzUUVdBLBGXtj/q5Mp5u98r3droaZAewQuEDzjQdZlQ==}
+  /caniuse-lite@1.0.30001589:
+    resolution: {integrity: sha512-vNQWS6kI+q6sBlHbh71IIeC+sRwK2N3EDySc/updIGhIee2x5z00J4c1242/5/d6EpEMdOnk/m+6tuk4/tcsqg==}
 
   /capital-case@1.0.4:
     resolution: {integrity: sha512-ds37W8CytHgwnhGGTi88pcPyR15qoNkOpYwmMMfnWqqWgESapLqvDx6huFjQ5vqWSn2Z06173XNA7LtMOeUh1A==}
@@ -5775,8 +5775,8 @@ packages:
   /eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  /electron-to-chromium@1.4.676:
-    resolution: {integrity: sha512-uHt4FB8SeYdhcOsj2ix/C39S7sPSNFJpzShjxGOm1KdF4MHyGqGi389+T5cErsodsijojXilYaHIKKqJfqh7uQ==}
+  /electron-to-chromium@1.4.679:
+    resolution: {integrity: sha512-NhQMsz5k0d6m9z3qAxnsOR/ebal4NAGsrNVRwcDo4Kc/zQ7KdsTKZUxZoygHcVRb0QDW3waEDIcE3isZ79RP6g==}
 
   /emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -5798,7 +5798,7 @@ packages:
       call-bind: 1.0.7
       es-define-property: 1.0.0
       es-errors: 1.3.0
-      es-set-tostringtag: 2.0.2
+      es-set-tostringtag: 2.0.3
       es-to-primitive: 1.2.1
       function.prototype.name: 1.1.6
       get-intrinsic: 1.2.4
@@ -5814,7 +5814,7 @@ packages:
       is-callable: 1.2.7
       is-negative-zero: 2.0.3
       is-regex: 1.1.4
-      is-shared-array-buffer: 1.0.2
+      is-shared-array-buffer: 1.0.3
       is-string: 1.0.7
       is-typed-array: 1.1.13
       is-weakref: 1.0.2
@@ -5828,9 +5828,9 @@ packages:
       string.prototype.trimend: 1.0.7
       string.prototype.trimstart: 1.0.7
       typed-array-buffer: 1.0.2
-      typed-array-byte-length: 1.0.0
-      typed-array-byte-offset: 1.0.1
-      typed-array-length: 1.0.4
+      typed-array-byte-length: 1.0.1
+      typed-array-byte-offset: 1.0.2
+      typed-array-length: 1.0.5
       unbox-primitive: 1.0.2
       which-typed-array: 1.1.14
     dev: true
@@ -5847,8 +5847,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /es-set-tostringtag@2.0.2:
-    resolution: {integrity: sha512-BuDyupZt65P9D2D2vA/zqcI3G5xRsklm5N3xCwuiy+/vKy8i0ifdsQP1sLgO4tZDSCaQUSnmC48khknGMV3D2Q==}
+  /es-set-tostringtag@2.0.3:
+    resolution: {integrity: sha512-3T8uNMC3OQTHkFUsFq8r/BwAXLHvU/9O9mE0fBc/MY5iq/8H7ncvO947LmYA6ldWw9Uh8Yhf25zu6n7nML5QWQ==}
     engines: {node: '>= 0.4'}
     dependencies:
       get-intrinsic: 1.2.4
@@ -6271,7 +6271,7 @@ packages:
       graphql: ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
     dependencies:
       graphql: 15.8.0
-      tslib: 2.4.1
+      tslib: 2.3.1
     dev: true
 
   /graphql-transformer-common@4.28.0:
@@ -6558,8 +6558,9 @@ packages:
       is-unc-path: 1.0.0
     dev: true
 
-  /is-shared-array-buffer@1.0.2:
-    resolution: {integrity: sha512-sqN2UDu1/0y6uvXyStCOzyhAjCSlHceFoMKJW8W9EU9cvic/QdsZ0kEU93HEy3IUEFZIiH/3w+AH/UQbPHNdhA==}
+  /is-shared-array-buffer@1.0.3:
+    resolution: {integrity: sha512-nA2hv5XIhLR3uVzDDfCIknerhx8XUKnstuOERPNNIinXG7v9u+ohXF67vxm4TPTEPU6lm61ZkwP3c9PCB97rhg==}
+    engines: {node: '>= 0.4'}
     dependencies:
       call-bind: 1.0.7
     dev: true
@@ -6845,7 +6846,7 @@ packages:
       '@next/env': 13.5.4
       '@swc/helpers': 0.5.2
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001588
+      caniuse-lite: 1.0.30001589
       postcss: 8.4.31
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -7694,18 +7695,19 @@ packages:
       is-typed-array: 1.1.13
     dev: true
 
-  /typed-array-byte-length@1.0.0:
-    resolution: {integrity: sha512-Or/+kvLxNpeQ9DtSydonMxCx+9ZXOswtwJn17SNLvhptaXYDJvkFFP5zbfU/uLmvnBJlI4yrnXRxpdWH/M5tNA==}
+  /typed-array-byte-length@1.0.1:
+    resolution: {integrity: sha512-3iMJ9q0ao7WE9tWcaYKIptkNBuOIcZCCT0d4MRvuuH88fEoEH62IuQe0OtraD3ebQEoTRk8XCBoknUNc1Y67pw==}
     engines: {node: '>= 0.4'}
     dependencies:
       call-bind: 1.0.7
       for-each: 0.3.3
+      gopd: 1.0.1
       has-proto: 1.0.3
       is-typed-array: 1.1.13
     dev: true
 
-  /typed-array-byte-offset@1.0.1:
-    resolution: {integrity: sha512-tcqKMrTRXjqvHN9S3553NPCaGL0VPgFI92lXszmrE8DMhiDPLBYLlvo8Uu4WZAAX/aGqp/T1sbA4ph8EWjDF9Q==}
+  /typed-array-byte-offset@1.0.2:
+    resolution: {integrity: sha512-Ous0vodHa56FviZucS2E63zkgtgrACj7omjwd/8lTEMEPFFyjfixMZ1ZXenpgCFBBt4EC1J2XsyVS2gkG0eTFA==}
     engines: {node: '>= 0.4'}
     dependencies:
       available-typed-arrays: 1.0.7
@@ -7716,12 +7718,16 @@ packages:
       is-typed-array: 1.1.13
     dev: true
 
-  /typed-array-length@1.0.4:
-    resolution: {integrity: sha512-KjZypGq+I/H7HI5HlOoGHkWUUGq+Q0TPhQurLbyrVrvnKTBgzLhIJ7j6J/XTQOi0d1RjyZ0wdas8bKs2p0x3Ng==}
+  /typed-array-length@1.0.5:
+    resolution: {integrity: sha512-yMi0PlwuznKHxKmcpoOdeLwxBoVPkqZxd7q2FgMkmD3bNwvF5VW0+UlUQ1k1vmktTu4Yu13Q0RIxEP8+B+wloA==}
+    engines: {node: '>= 0.4'}
     dependencies:
       call-bind: 1.0.7
       for-each: 0.3.3
+      gopd: 1.0.1
+      has-proto: 1.0.3
       is-typed-array: 1.1.13
+      possible-typed-array-names: 1.0.0
     dev: true
 
   /typescript@4.4.4:
