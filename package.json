@@ -20,7 +20,7 @@
     "@aws-amplify/backend": "^0.5.5",
     "@aws-amplify/backend-cli": "^0.9.7",
     "@types/node": "^20.11.20",
-    "@types/react": "^18.2.58",
+    "@types/react": "^18.2.59",
     "@types/react-dom": "^18.2.19",
     "typescript": "^5.3.3"
   }
