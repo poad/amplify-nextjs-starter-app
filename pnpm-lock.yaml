@@ -454,7 +454,7 @@ packages:
       '@aws-amplify/deployed-backend-client': 0.3.10(aws-cdk-lib@2.110.1)(constructs@10.3.0)
       '@aws-amplify/model-generator': 0.2.7(aws-cdk-lib@2.110.1)(constructs@10.3.0)(zod@3.22.4)
       '@aws-sdk/client-amplify': 3.525.0
-      '@aws-sdk/client-cloudformation': 3.525.0
+      '@aws-sdk/client-cloudformation': 3.526.0
       '@aws-sdk/client-ssm': 3.525.0
       '@aws-sdk/credential-providers': 3.525.0
       zod: 3.22.4
@@ -591,7 +591,7 @@ packages:
       '@aws-amplify/backend-output-schemas': 0.6.0(zod@3.22.4)
       '@aws-amplify/platform-core': 0.4.4(aws-cdk-lib@2.110.1)(constructs@10.3.0)
       '@aws-sdk/client-amplify': 3.525.0
-      '@aws-sdk/client-cloudformation': 3.525.0
+      '@aws-sdk/client-cloudformation': 3.526.0
       '@aws-sdk/client-s3': 3.525.0
       '@aws-sdk/types': 3.523.0
       zod: 3.22.4
@@ -885,7 +885,7 @@ packages:
       '@aws-amplify/client-config': 0.5.3(aws-cdk-lib@2.110.1)(constructs@10.3.0)
       '@aws-amplify/deployed-backend-client': 0.3.10(aws-cdk-lib@2.110.1)(constructs@10.3.0)
       '@aws-amplify/platform-core': 0.4.4(aws-cdk-lib@2.110.1)(constructs@10.3.0)
-      '@aws-sdk/client-cloudformation': 3.525.0
+      '@aws-sdk/client-cloudformation': 3.526.0
       '@aws-sdk/credential-providers': 3.525.0
       '@aws-sdk/types': 3.523.0
       '@parcel/watcher': 2.4.1
@@ -1045,7 +1045,7 @@ packages:
       '@aws-crypto/sha256-js': 3.0.0
       '@aws-crypto/supports-web-crypto': 3.0.0
       '@aws-crypto/util': 3.0.0
-      '@aws-sdk/types': 3.523.0
+      '@aws-sdk/types': 3.398.0
       '@aws-sdk/util-locate-window': 3.495.0
       '@aws-sdk/util-utf8-browser': 3.259.0
       tslib: 1.14.1
@@ -1054,7 +1054,7 @@ packages:
     resolution: {integrity: sha512-PnNN7os0+yd1XvXAy23CFOmTbMaDxgxXtTKHybrJ39Y8kGzBATgBFibWJKH6BhytLI/Zyszs87xCOBNyBig6vQ==}
     dependencies:
       '@aws-crypto/util': 3.0.0
-      '@aws-sdk/types': 3.523.0
+      '@aws-sdk/types': 3.398.0
       tslib: 1.14.1
 
   /@aws-crypto/sha256-js@5.2.0:
@@ -1074,7 +1074,7 @@ packages:
   /@aws-crypto/util@3.0.0:
     resolution: {integrity: sha512-2OJlpeJpCR48CC8r+uKVChzs9Iungj9wkZrl8Z041DWEWvyIHILYKCPNzJghKsivj+S3mLo6BVc7mBNzdxA46w==}
     dependencies:
-      '@aws-sdk/types': 3.523.0
+      '@aws-sdk/types': 3.398.0
       '@aws-sdk/util-utf8-browser': 3.259.0
       tslib: 1.14.1
 
@@ -1232,8 +1232,8 @@ packages:
       - aws-crt
     dev: true
 
-  /@aws-sdk/client-cloudformation@3.525.0:
-    resolution: {integrity: sha512-z+IbnnVWOoS0C5s3JfheS6zxhRfJAk57zxKMD0ofTFW/eIDxhyvd12gnTWUNZch6Lz0TeeqK/hsxVvF2p0hf4A==}
+  /@aws-sdk/client-cloudformation@3.526.0:
+    resolution: {integrity: sha512-Zz6swHfQdauuCJY3j+5SUPMFWTxgpAWN3x5dl/8jdn0Q1GdiWzZ0/5+jZr83mE7ola3UUH3LP/cw1UIljJO0ZA==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@aws-crypto/sha256-browser': 3.0.0
@@ -2637,7 +2637,6 @@ packages:
     dependencies:
       '@smithy/types': 2.10.1
       tslib: 2.6.2
-    dev: false
 
   /@aws-sdk/types@3.433.0:
     resolution: {integrity: sha512-0jEE2mSrNDd8VGFjTc1otYrwYPIkzZJEIK90ZxisKvQ/EURGBhNzWn7ejWB9XCMFT6XumYLBR0V9qq5UPisWtA==}
@@ -5386,7 +5385,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001593
-      electron-to-chromium: 1.4.690
+      electron-to-chromium: 1.4.691
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.23.0)
 
@@ -5775,8 +5774,8 @@ packages:
   /eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  /electron-to-chromium@1.4.690:
-    resolution: {integrity: sha512-+2OAGjUx68xElQhydpcbqH50hE8Vs2K6TkAeLhICYfndb67CVH0UsZaijmRUE3rHlIxU1u0jxwhgVe6fK3YANA==}
+  /electron-to-chromium@1.4.691:
+    resolution: {integrity: sha512-vJ+/LmKja/St8Ofq4JGMFVZuwG7ECU6akjNSn2/g6nv8xbIBOWGlEs+WA8/3XaWkU0Nlyu0iFGgOxC4mpgFjgA==}
 
   /emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -6523,7 +6522,7 @@ packages:
   /is-lower-case@2.0.2:
     resolution: {integrity: sha512-bVcMJy4X5Og6VZfdOZstSexlEy20Sr0k/p/b2IlQJlfdKAQuMpiv5w2Ccxb8sKdRUNAG1PnHVHjFSdRDVS6NlQ==}
     dependencies:
-      tslib: 2.6.2
+      tslib: 2.4.1
     dev: true
 
   /is-negative-zero@2.0.3:
@@ -6606,7 +6605,7 @@ packages:
   /is-upper-case@2.0.2:
     resolution: {integrity: sha512-44pxmxAvnnAOwBg4tHPnkfvgjPwbc5QIsSstNU+YcJ1ovxVzCWpSGosPJOZh/a1tdl81fbgnLc9LLv+x2ywbPQ==}
     dependencies:
-      tslib: 2.6.2
+      tslib: 2.4.1
     dev: true
 
   /is-weakref@1.0.2:
@@ -7460,7 +7459,7 @@ packages:
   /sponge-case@1.0.1:
     resolution: {integrity: sha512-dblb9Et4DAtiZ5YSUZHLl4XhH4uK80GhAZrVXdN4O2P4gQ40Wa5UIOPUHlA/nFd2PLblBZWUioLMMAVrgpoYcA==}
     dependencies:
-      tslib: 2.6.2
+      tslib: 2.4.1
     dev: true
 
   /streamsearch@1.1.0:
@@ -7589,7 +7588,7 @@ packages:
   /swap-case@2.0.2:
     resolution: {integrity: sha512-kc6S2YS/2yXbtkSMunBtKdah4VFETZ8Oh6ONSmSd9bRxhqTrtARUCBUiWXH3xVPpvR7tz2CSnkuXVE42EcGnMw==}
     dependencies:
-      tslib: 2.6.2
+      tslib: 2.4.1
     dev: true
 
   /tinycolor2@1.6.0:
@@ -7599,7 +7598,7 @@ packages:
   /title-case@3.0.3:
     resolution: {integrity: sha512-e1zGYRvbffpcHIrnuqT0Dh+gEJtDaxDSoG4JAIpq4oDFyooziLBIiYQv0GBT4FUAnUop5uZ1hiIAj7oAF6sOCA==}
     dependencies:
-      tslib: 2.6.2
+      tslib: 2.4.1
     dev: true
 
   /titleize@3.0.0:
