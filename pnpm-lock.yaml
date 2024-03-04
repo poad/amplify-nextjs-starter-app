@@ -30,7 +30,7 @@ devDependencies:
     version: 0.5.5(aws-cdk-lib@2.110.1)(constructs@10.3.0)(zod@3.22.4)
   '@aws-amplify/backend-cli':
     specifier: ^0.9.7
-    version: 0.9.7(@aws-sdk/credential-provider-node@3.525.0)(@aws-sdk/types@3.523.0)(aws-cdk-lib@2.110.1)(aws-cdk@2.130.0)(constructs@10.3.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
+    version: 0.9.7(@aws-sdk/credential-provider-node@3.525.0)(@aws-sdk/types@3.523.0)(aws-cdk-lib@2.110.1)(aws-cdk@2.131.0)(constructs@10.3.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
   '@types/node':
     specifier: ^20.11.24
     version: 20.11.24
@@ -46,12 +46,12 @@ devDependencies:
 
 packages:
 
-  /@ampproject/remapping@2.2.1:
-    resolution: {integrity: sha512-lFMjJTrFL3j7L9yBxwYfCq2k6qqwHyzuUl/XBnif78PWTJYyL/dfowQHWE3sp6U6ZzqWiiIZnpTMO96zhkjwtg==}
+  /@ampproject/remapping@2.3.0:
+    resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
     engines: {node: '>=6.0.0'}
     dependencies:
-      '@jridgewell/gen-mapping': 0.3.4
-      '@jridgewell/trace-mapping': 0.3.23
+      '@jridgewell/gen-mapping': 0.3.5
+      '@jridgewell/trace-mapping': 0.3.25
 
   /@ardatan/aggregate-error@0.0.6:
     resolution: {integrity: sha512-vyrkEHG1jrukmzTPtyWB4NLPauUw5bQeg4uhn8f+1SSynmrOcyvlb1GKQjjgoBzElLdfXCRYX8UnBlhklOHYRQ==}
@@ -231,14 +231,14 @@ packages:
       - zod
     dev: true
 
-  /@aws-amplify/backend-cli@0.9.7(@aws-sdk/credential-provider-node@3.525.0)(@aws-sdk/types@3.523.0)(aws-cdk-lib@2.110.1)(aws-cdk@2.130.0)(constructs@10.3.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3):
+  /@aws-amplify/backend-cli@0.9.7(@aws-sdk/credential-provider-node@3.525.0)(@aws-sdk/types@3.523.0)(aws-cdk-lib@2.110.1)(aws-cdk@2.131.0)(constructs@10.3.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3):
     resolution: {integrity: sha512-3pXidAqvvl1HxfjchcV6gcV/gEIr5ctOrj6Ta9QVbp9hRZRHFEE9vuvOMGtitcv19TI/qOifzF7ngk2xo7bBhg==}
     engines: {node: '>=18.16.0'}
     hasBin: true
     peerDependencies:
       '@aws-sdk/types': ^3.465.0
     dependencies:
-      '@aws-amplify/backend-deployer': 0.4.7(aws-cdk-lib@2.110.1)(aws-cdk@2.130.0)(constructs@10.3.0)(typescript@5.3.3)
+      '@aws-amplify/backend-deployer': 0.4.7(aws-cdk-lib@2.110.1)(aws-cdk@2.131.0)(constructs@10.3.0)(typescript@5.3.3)
       '@aws-amplify/backend-output-schemas': 0.5.2(zod@3.22.4)
       '@aws-amplify/backend-secret': 0.4.4(aws-cdk-lib@2.110.1)(constructs@10.3.0)
       '@aws-amplify/cli-core': 0.2.0
@@ -247,7 +247,7 @@ packages:
       '@aws-amplify/form-generator': 0.6.1(react-dom@18.2.0)(react@18.2.0)
       '@aws-amplify/model-generator': 0.2.7(aws-cdk-lib@2.110.1)(constructs@10.3.0)(zod@3.22.4)
       '@aws-amplify/platform-core': 0.4.4(aws-cdk-lib@2.110.1)(constructs@10.3.0)
-      '@aws-amplify/sandbox': 0.3.14(aws-cdk-lib@2.110.1)(aws-cdk@2.130.0)(constructs@10.3.0)(typescript@5.3.3)
+      '@aws-amplify/sandbox': 0.3.14(aws-cdk-lib@2.110.1)(aws-cdk@2.131.0)(constructs@10.3.0)(typescript@5.3.3)
       '@aws-sdk/credential-provider-ini': 3.525.0(@aws-sdk/credential-provider-node@3.525.0)
       '@aws-sdk/credential-providers': 3.525.0
       '@aws-sdk/region-config-resolver': 3.525.0
@@ -290,7 +290,7 @@ packages:
       - zod
     dev: true
 
-  /@aws-amplify/backend-deployer@0.4.7(aws-cdk-lib@2.110.1)(aws-cdk@2.130.0)(constructs@10.3.0)(typescript@5.3.3):
+  /@aws-amplify/backend-deployer@0.4.7(aws-cdk-lib@2.110.1)(aws-cdk@2.131.0)(constructs@10.3.0)(typescript@5.3.3):
     resolution: {integrity: sha512-T2eFfI/UVuNotkHWWlLFMudRZqHh0ifTEC0/PCdI5zy7cCN2GWL31VEdRQJ3wlK+ji47fJytfRUSrWq9cXdcGw==}
     peerDependencies:
       aws-cdk: ^2.110.1
@@ -298,7 +298,7 @@ packages:
     dependencies:
       '@aws-amplify/platform-core': 0.4.4(aws-cdk-lib@2.110.1)(constructs@10.3.0)
       '@aws-amplify/plugin-types': 0.7.1(aws-cdk-lib@2.110.1)(constructs@10.3.0)
-      aws-cdk: 2.130.0
+      aws-cdk: 2.131.0
       execa: 8.0.1
       tsx: 4.7.1
       typescript: 5.3.3
@@ -874,12 +874,12 @@ packages:
       constructs: 10.3.0
     dev: true
 
-  /@aws-amplify/sandbox@0.3.14(aws-cdk-lib@2.110.1)(aws-cdk@2.130.0)(constructs@10.3.0)(typescript@5.3.3):
+  /@aws-amplify/sandbox@0.3.14(aws-cdk-lib@2.110.1)(aws-cdk@2.131.0)(constructs@10.3.0)(typescript@5.3.3):
     resolution: {integrity: sha512-V5ZNsVlwcDEjtgyFY0Tp1HlfHow02+AJO02h6xvEu32c7RBu0H1bjqSE4yxMfrWz+0v5y95S3nI/Jq1zv3f9TA==}
     peerDependencies:
       aws-cdk: ^2.110.1
     dependencies:
-      '@aws-amplify/backend-deployer': 0.4.7(aws-cdk-lib@2.110.1)(aws-cdk@2.130.0)(constructs@10.3.0)(typescript@5.3.3)
+      '@aws-amplify/backend-deployer': 0.4.7(aws-cdk-lib@2.110.1)(aws-cdk@2.131.0)(constructs@10.3.0)(typescript@5.3.3)
       '@aws-amplify/backend-secret': 0.4.4(aws-cdk-lib@2.110.1)(constructs@10.3.0)
       '@aws-amplify/cli-core': 0.2.0
       '@aws-amplify/client-config': 0.5.3(aws-cdk-lib@2.110.1)(constructs@10.3.0)
@@ -889,7 +889,7 @@ packages:
       '@aws-sdk/credential-providers': 3.525.0
       '@aws-sdk/types': 3.523.0
       '@parcel/watcher': 2.4.1
-      aws-cdk: 2.130.0
+      aws-cdk: 2.131.0
       debounce-promise: 3.1.2
       glob: 10.3.10
       open: 9.1.0
@@ -942,7 +942,7 @@ packages:
       aws-amplify: 6.0.18
       lodash: 4.17.21
       react: 18.2.0
-      react-hook-form: 7.50.1(react@18.2.0)
+      react-hook-form: 7.51.0(react@18.2.0)
       xstate: 4.38.3
     transitivePeerDependencies:
       - '@types/react'
@@ -2794,7 +2794,7 @@ packages:
     resolution: {integrity: sha512-fQfkg0Gjkza3nf0c7/w6Xf34BW4YvzNfACRLmmb7XRLa6XHdR+K9AlJlxneFfWYf6uhOzuzZVTjF/8KfndZANw==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@ampproject/remapping': 2.2.1
+      '@ampproject/remapping': 2.3.0
       '@babel/code-frame': 7.23.5
       '@babel/generator': 7.23.6
       '@babel/helper-compilation-targets': 7.23.6
@@ -2827,8 +2827,8 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/types': 7.24.0
-      '@jridgewell/gen-mapping': 0.3.4
-      '@jridgewell/trace-mapping': 0.3.23
+      '@jridgewell/gen-mapping': 0.3.5
+      '@jridgewell/trace-mapping': 0.3.25
       jsesc: 2.5.2
 
   /@babel/helper-annotate-as-pure@7.22.5:
@@ -3694,7 +3694,7 @@ packages:
     dependencies:
       '@ardatan/sync-fetch': 0.0.1
       '@graphql-tools/utils': 10.1.0(graphql@15.8.0)
-      '@whatwg-node/fetch': 0.9.16
+      '@whatwg-node/fetch': 0.9.17
       graphql: 15.8.0
       tslib: 2.6.2
     transitivePeerDependencies:
@@ -3728,7 +3728,7 @@ packages:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
     dependencies:
       graphql: 15.8.0
-      tslib: 2.4.1
+      tslib: 2.6.2
     dev: true
 
   /@graphql-tools/relay-operation-optimizer@6.5.18(graphql@15.8.0):
@@ -3739,7 +3739,7 @@ packages:
       '@ardatan/relay-compiler': 12.0.0(graphql@15.8.0)
       '@graphql-tools/utils': 9.2.1(graphql@15.8.0)
       graphql: 15.8.0
-      tslib: 2.4.1
+      tslib: 2.6.2
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -3953,13 +3953,13 @@ packages:
       wrap-ansi: 8.1.0
       wrap-ansi-cjs: /wrap-ansi@7.0.0
 
-  /@jridgewell/gen-mapping@0.3.4:
-    resolution: {integrity: sha512-Oud2QPM5dHviZNn4y/WhhYKSXksv+1xLEIsNrAbGcFzUN3ubqWRFT5gwPchNc5NuzILOU4tPBDTZ4VwhL8Y7cw==}
+  /@jridgewell/gen-mapping@0.3.5:
+    resolution: {integrity: sha512-IzL8ZoEDIBRWEzlCcRhOaCupYyN5gdIK+Q6fbFdPDg6HqX6jpkItn7DFIpW9LQzXG6Df9sA7+OKnq0qlz/GaQg==}
     engines: {node: '>=6.0.0'}
     dependencies:
       '@jridgewell/set-array': 1.2.1
       '@jridgewell/sourcemap-codec': 1.4.15
-      '@jridgewell/trace-mapping': 0.3.23
+      '@jridgewell/trace-mapping': 0.3.25
 
   /@jridgewell/resolve-uri@3.1.2:
     resolution: {integrity: sha512-bRISgCIjP20/tbWSPWMEi54QVPRZExkuD9lJL+UIxUKtwVJA8wW1Trb1jMs1RFXo1CBTNZ/5hpC9QvmKWdopKw==}
@@ -3972,8 +3972,8 @@ packages:
   /@jridgewell/sourcemap-codec@1.4.15:
     resolution: {integrity: sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==}
 
-  /@jridgewell/trace-mapping@0.3.23:
-    resolution: {integrity: sha512-9/4foRoUKp8s96tSkh8DlAAc5A0Ty8vLXld+l9gjKKY6ckwI8G15f0hskGmuLZu78ZlGa1vtsfOa+lnB4vG6Jg==}
+  /@jridgewell/trace-mapping@0.3.25:
+    resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
@@ -5080,16 +5080,16 @@ packages:
     engines: {node: '>=16.0.0'}
     dev: true
 
-  /@whatwg-node/fetch@0.9.16:
-    resolution: {integrity: sha512-mqasZiUNquRe3ea9+aCAuo81BR6vq5opUKprPilIHTnrg8a21Z1T1OrI+KiMFX8OmwO5HUJe/vro47lpj2JPWQ==}
+  /@whatwg-node/fetch@0.9.17:
+    resolution: {integrity: sha512-TDYP3CpCrxwxpiNY0UMNf096H5Ihf67BK1iKGegQl5u9SlpEDYrvnV71gWBGJm+Xm31qOy8ATgma9rm8Pe7/5Q==}
     engines: {node: '>=16.0.0'}
     dependencies:
-      '@whatwg-node/node-fetch': 0.5.6
+      '@whatwg-node/node-fetch': 0.5.7
       urlpattern-polyfill: 10.0.0
     dev: true
 
-  /@whatwg-node/node-fetch@0.5.6:
-    resolution: {integrity: sha512-cmAsGMHoI0S3AHi3CmD3ma1Q234ZI2JNmXyDyM9rLtbXejBKxU3ZWdhS+mzRIAyUxZCMGlFW1tHmROv0MDdxpw==}
+  /@whatwg-node/node-fetch@0.5.7:
+    resolution: {integrity: sha512-YZA+N3JcW1eh2QRi7o/ij+M07M0dqID73ltgsOEMRyEc2UYVDbyomaih+CWCEZqBIDHw4KMDveXvv4SBZ4TLIw==}
     engines: {node: '>=16.0.0'}
     dependencies:
       '@kamilkisiela/fast-url-parser': 1.1.4
@@ -5257,8 +5257,8 @@ packages:
       - table
       - yaml
 
-  /aws-cdk@2.130.0:
-    resolution: {integrity: sha512-MsjGzQ2kZv0FEfXvpW7FTJRnefew0GrYt9M2SMN2Yn45+yjugGl2X8to416kABeFz1OFqW56hq8Y5BiLuFDVLQ==}
+  /aws-cdk@2.131.0:
+    resolution: {integrity: sha512-ji+MwGFGC88HE/EqV6/VARBp5mu3nXIDa/GYwtGycJqu6WqXhNZXWeDH0JsWaY6+BSUdpY6pr6KWpV+MDyVkDg==}
     engines: {node: '>= 14.15.0'}
     hasBin: true
     optionalDependencies:
@@ -5385,8 +5385,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001591
-      electron-to-chromium: 1.4.689
+      caniuse-lite: 1.0.30001593
+      electron-to-chromium: 1.4.690
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.23.0)
 
@@ -5449,8 +5449,8 @@ packages:
     resolution: {integrity: sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==}
     engines: {node: '>=6'}
 
-  /caniuse-lite@1.0.30001591:
-    resolution: {integrity: sha512-PCzRMei/vXjJyL5mJtzNiUCKP59dm8Apqc3PH8gJkMnMXZGox93RbE76jHsmLwmIo6/3nsYIpJtx0O7u5PqFuQ==}
+  /caniuse-lite@1.0.30001593:
+    resolution: {integrity: sha512-UWM1zlo3cZfkpBysd7AS+z+v007q9G1+fLTUU42rQnY6t2axoogPW/xol6T7juU5EUoOhML4WgBIdG+9yYqAjQ==}
 
   /capital-case@1.0.4:
     resolution: {integrity: sha512-ds37W8CytHgwnhGGTi88pcPyR15qoNkOpYwmMMfnWqqWgESapLqvDx6huFjQ5vqWSn2Z06173XNA7LtMOeUh1A==}
@@ -5775,8 +5775,8 @@ packages:
   /eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  /electron-to-chromium@1.4.689:
-    resolution: {integrity: sha512-GatzRKnGPS1go29ep25reM94xxd1Wj8ritU0yRhCJ/tr1Bg8gKnm6R9O/yPOhGQBoLMZ9ezfrpghNaTw97C/PQ==}
+  /electron-to-chromium@1.4.690:
+    resolution: {integrity: sha512-+2OAGjUx68xElQhydpcbqH50hE8Vs2K6TkAeLhICYfndb67CVH0UsZaijmRUE3rHlIxU1u0jxwhgVe6fK3YANA==}
 
   /emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -6271,7 +6271,7 @@ packages:
       graphql: ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
     dependencies:
       graphql: 15.8.0
-      tslib: 2.4.1
+      tslib: 2.3.1
     dev: true
 
   /graphql-transformer-common@4.28.1:
@@ -6846,7 +6846,7 @@ packages:
       '@next/env': 13.5.4
       '@swc/helpers': 0.5.2
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001591
+      caniuse-lite: 1.0.30001593
       postcss: 8.4.31
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -7169,8 +7169,8 @@ packages:
       react: 18.2.0
       scheduler: 0.23.0
 
-  /react-hook-form@7.50.1(react@18.2.0):
-    resolution: {integrity: sha512-3PCY82oE0WgeOgUtIr3nYNNtNvqtJ7BZjsbxh6TnYNbXButaD5WpjOmTjdxZfheuHKR68qfeFnEDVYoSSFPMTQ==}
+  /react-hook-form@7.51.0(react@18.2.0):
+    resolution: {integrity: sha512-BggOy5j58RdhdMzzRUHGOYhSz1oeylFAv6jUSG86OvCIvlAvS7KvnRY7yoAf2pfEiPN7BesnR0xx73nEk3qIiw==}
     engines: {node: '>=12.22.0'}
     peerDependencies:
       react: ^16.8.0 || ^17 || ^18
