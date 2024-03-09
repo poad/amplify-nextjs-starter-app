@@ -30,7 +30,7 @@ devDependencies:
     version: 0.5.5(aws-cdk-lib@2.110.1)(constructs@10.3.0)(zod@3.22.4)
   '@aws-amplify/backend-cli':
     specifier: ^0.9.7
-    version: 0.9.7(@aws-sdk/credential-provider-node@3.529.1)(@aws-sdk/types@3.523.0)(aws-cdk-lib@2.110.1)(aws-cdk@2.131.0)(constructs@10.3.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.2)
+    version: 0.9.7(@aws-sdk/credential-provider-node@3.529.1)(@aws-sdk/types@3.523.0)(aws-cdk-lib@2.110.1)(aws-cdk@2.132.0)(constructs@10.3.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.2)
   '@types/node':
     specifier: ^20.11.25
     version: 20.11.25
@@ -231,14 +231,14 @@ packages:
       - zod
     dev: true
 
-  /@aws-amplify/backend-cli@0.9.7(@aws-sdk/credential-provider-node@3.529.1)(@aws-sdk/types@3.523.0)(aws-cdk-lib@2.110.1)(aws-cdk@2.131.0)(constructs@10.3.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.2):
+  /@aws-amplify/backend-cli@0.9.7(@aws-sdk/credential-provider-node@3.529.1)(@aws-sdk/types@3.523.0)(aws-cdk-lib@2.110.1)(aws-cdk@2.132.0)(constructs@10.3.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.2):
     resolution: {integrity: sha512-3pXidAqvvl1HxfjchcV6gcV/gEIr5ctOrj6Ta9QVbp9hRZRHFEE9vuvOMGtitcv19TI/qOifzF7ngk2xo7bBhg==}
     engines: {node: '>=18.16.0'}
     hasBin: true
     peerDependencies:
       '@aws-sdk/types': ^3.465.0
     dependencies:
-      '@aws-amplify/backend-deployer': 0.4.7(aws-cdk-lib@2.110.1)(aws-cdk@2.131.0)(constructs@10.3.0)(typescript@5.4.2)
+      '@aws-amplify/backend-deployer': 0.4.7(aws-cdk-lib@2.110.1)(aws-cdk@2.132.0)(constructs@10.3.0)(typescript@5.4.2)
       '@aws-amplify/backend-output-schemas': 0.5.2(zod@3.22.4)
       '@aws-amplify/backend-secret': 0.4.4(aws-cdk-lib@2.110.1)(constructs@10.3.0)
       '@aws-amplify/cli-core': 0.2.0
@@ -247,7 +247,7 @@ packages:
       '@aws-amplify/form-generator': 0.6.1(react-dom@18.2.0)(react@18.2.0)
       '@aws-amplify/model-generator': 0.2.7(aws-cdk-lib@2.110.1)(constructs@10.3.0)(zod@3.22.4)
       '@aws-amplify/platform-core': 0.4.4(aws-cdk-lib@2.110.1)(constructs@10.3.0)
-      '@aws-amplify/sandbox': 0.3.14(aws-cdk-lib@2.110.1)(aws-cdk@2.131.0)(constructs@10.3.0)(typescript@5.4.2)
+      '@aws-amplify/sandbox': 0.3.14(aws-cdk-lib@2.110.1)(aws-cdk@2.132.0)(constructs@10.3.0)(typescript@5.4.2)
       '@aws-sdk/credential-provider-ini': 3.529.1(@aws-sdk/credential-provider-node@3.529.1)
       '@aws-sdk/credential-providers': 3.529.1
       '@aws-sdk/region-config-resolver': 3.525.0
@@ -290,7 +290,7 @@ packages:
       - zod
     dev: true
 
-  /@aws-amplify/backend-deployer@0.4.7(aws-cdk-lib@2.110.1)(aws-cdk@2.131.0)(constructs@10.3.0)(typescript@5.4.2):
+  /@aws-amplify/backend-deployer@0.4.7(aws-cdk-lib@2.110.1)(aws-cdk@2.132.0)(constructs@10.3.0)(typescript@5.4.2):
     resolution: {integrity: sha512-T2eFfI/UVuNotkHWWlLFMudRZqHh0ifTEC0/PCdI5zy7cCN2GWL31VEdRQJ3wlK+ji47fJytfRUSrWq9cXdcGw==}
     peerDependencies:
       aws-cdk: ^2.110.1
@@ -298,7 +298,7 @@ packages:
     dependencies:
       '@aws-amplify/platform-core': 0.4.4(aws-cdk-lib@2.110.1)(constructs@10.3.0)
       '@aws-amplify/plugin-types': 0.7.1(aws-cdk-lib@2.110.1)(constructs@10.3.0)
-      aws-cdk: 2.131.0
+      aws-cdk: 2.132.0
       execa: 8.0.1
       tsx: 4.7.1
       typescript: 5.4.2
@@ -874,12 +874,12 @@ packages:
       constructs: 10.3.0
     dev: true
 
-  /@aws-amplify/sandbox@0.3.14(aws-cdk-lib@2.110.1)(aws-cdk@2.131.0)(constructs@10.3.0)(typescript@5.4.2):
+  /@aws-amplify/sandbox@0.3.14(aws-cdk-lib@2.110.1)(aws-cdk@2.132.0)(constructs@10.3.0)(typescript@5.4.2):
     resolution: {integrity: sha512-V5ZNsVlwcDEjtgyFY0Tp1HlfHow02+AJO02h6xvEu32c7RBu0H1bjqSE4yxMfrWz+0v5y95S3nI/Jq1zv3f9TA==}
     peerDependencies:
       aws-cdk: ^2.110.1
     dependencies:
-      '@aws-amplify/backend-deployer': 0.4.7(aws-cdk-lib@2.110.1)(aws-cdk@2.131.0)(constructs@10.3.0)(typescript@5.4.2)
+      '@aws-amplify/backend-deployer': 0.4.7(aws-cdk-lib@2.110.1)(aws-cdk@2.132.0)(constructs@10.3.0)(typescript@5.4.2)
       '@aws-amplify/backend-secret': 0.4.4(aws-cdk-lib@2.110.1)(constructs@10.3.0)
       '@aws-amplify/cli-core': 0.2.0
       '@aws-amplify/client-config': 0.5.3(aws-cdk-lib@2.110.1)(constructs@10.3.0)
@@ -889,7 +889,7 @@ packages:
       '@aws-sdk/credential-providers': 3.529.1
       '@aws-sdk/types': 3.523.0
       '@parcel/watcher': 2.4.1
-      aws-cdk: 2.131.0
+      aws-cdk: 2.132.0
       debounce-promise: 3.1.2
       glob: 10.3.10
       open: 9.1.0
@@ -3726,7 +3726,7 @@ packages:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
     dependencies:
       graphql: 15.8.0
-      tslib: 2.4.1
+      tslib: 2.6.2
     dev: true
 
   /@graphql-tools/relay-operation-optimizer@6.5.18(graphql@15.8.0):
@@ -3737,7 +3737,7 @@ packages:
       '@ardatan/relay-compiler': 12.0.0(graphql@15.8.0)
       '@graphql-tools/utils': 9.2.1(graphql@15.8.0)
       graphql: 15.8.0
-      tslib: 2.4.1
+      tslib: 2.6.2
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -5256,8 +5256,8 @@ packages:
       - table
       - yaml
 
-  /aws-cdk@2.131.0:
-    resolution: {integrity: sha512-ji+MwGFGC88HE/EqV6/VARBp5mu3nXIDa/GYwtGycJqu6WqXhNZXWeDH0JsWaY6+BSUdpY6pr6KWpV+MDyVkDg==}
+  /aws-cdk@2.132.0:
+    resolution: {integrity: sha512-C2j9iQqpl21YGuip02tIAAkgkDZNDDWeEoWfPcdXCJlQ9DVpYTJG24QxtY0rWflJ7Xkn+iAozdjlCrXSxYeAfA==}
     engines: {node: '>= 14.15.0'}
     hasBin: true
     optionalDependencies:
@@ -5385,7 +5385,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001596
-      electron-to-chromium: 1.4.698
+      electron-to-chromium: 1.4.699
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.23.0)
 
@@ -5774,8 +5774,8 @@ packages:
   /eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  /electron-to-chromium@1.4.698:
-    resolution: {integrity: sha512-f9iZD1t3CLy1AS6vzM5EKGa6p9pRcOeEFXRFbaG2Ta+Oe7MkfRQ3fsvPYidzHe1h4i0JvIvpcY55C+B6BZNGtQ==}
+  /electron-to-chromium@1.4.699:
+    resolution: {integrity: sha512-I7q3BbQi6e4tJJN5CRcyvxhK0iJb34TV8eJQcgh+fR2fQ8miMgZcEInckCo1U9exDHbfz7DLDnFn8oqH/VcRKw==}
 
   /emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -6270,7 +6270,7 @@ packages:
       graphql: ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
     dependencies:
       graphql: 15.8.0
-      tslib: 2.4.1
+      tslib: 2.3.1
     dev: true
 
   /graphql-transformer-common@4.28.1:
