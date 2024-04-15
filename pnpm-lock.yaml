@@ -1006,7 +1006,7 @@ packages:
     resolution: {integrity: sha512-IzSgsrxUcsrejQbPVilIKy16kAT52EwB6zSaI+M3xxIhKh5+aldEyvI+z6erM7TCLB2BJsFrtHjp6/4/sr+3dA==}
     dependencies:
       '@aws-crypto/util': 3.0.0
-      '@aws-sdk/types': 3.398.0
+      '@aws-sdk/types': 3.535.0
       tslib: 1.14.1
 
   /@aws-crypto/crc32c@3.0.0:
@@ -2631,6 +2631,7 @@ packages:
     dependencies:
       '@smithy/types': 2.12.0
       tslib: 2.6.2
+    dev: false
 
   /@aws-sdk/types@3.433.0:
     resolution: {integrity: sha512-0jEE2mSrNDd8VGFjTc1otYrwYPIkzZJEIK90ZxisKvQ/EURGBhNzWn7ejWB9XCMFT6XumYLBR0V9qq5UPisWtA==}
