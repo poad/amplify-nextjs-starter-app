@@ -565,11 +565,22 @@ packages:
     transitivePeerDependencies:
       - aws-cdk-lib
       - constructs
+    dev: false
+
+  /@aws-amplify/data-schema-types@0.8.0(constructs@10.3.0):
+    resolution: {integrity: sha512-irfYm8uY7H8IfCNYSoep2/rxkk+n9/PTEvWVuEMZ24aYfQoDaS21Kb85DyGVZEr4LtNtTpiE1itFC0W8pCOtvA==}
+    dependencies:
+      '@aws-amplify/plugin-types': 0.9.0-beta.2(constructs@10.3.0)
+      rxjs: 7.8.1
+    transitivePeerDependencies:
+      - aws-cdk-lib
+      - constructs
+    dev: true
 
   /@aws-amplify/data-schema@0.12.14(constructs@10.3.0):
     resolution: {integrity: sha512-uh8TMrsxOsCM0MZ+atmq7t5CbQFtd7hLNucruB2dXXIXonn3moF55i4hl91y3tfpXxRADCDazIaqMSRAwZ/6mw==}
     dependencies:
-      '@aws-amplify/data-schema-types': 0.7.17(constructs@10.3.0)
+      '@aws-amplify/data-schema-types': 0.8.0(constructs@10.3.0)
     transitivePeerDependencies:
       - aws-cdk-lib
       - constructs
@@ -3566,7 +3577,7 @@ packages:
     dependencies:
       '@graphql-codegen/plugin-helpers': 5.0.3(graphql@15.8.0)
       '@graphql-tools/schema': 10.0.3(graphql@15.8.0)
-      '@graphql-tools/utils': 10.1.2(graphql@15.8.0)
+      '@graphql-tools/utils': 10.1.3(graphql@15.8.0)
       graphql: 15.8.0
       tslib: 2.6.2
     dev: true
@@ -3603,7 +3614,7 @@ packages:
     peerDependencies:
       graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
     dependencies:
-      '@graphql-tools/utils': 10.1.2(graphql@15.8.0)
+      '@graphql-tools/utils': 10.1.3(graphql@15.8.0)
       change-case-all: 1.0.15
       common-tags: 1.8.2
       graphql: 15.8.0
@@ -3688,7 +3699,7 @@ packages:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
     dependencies:
       '@ardatan/sync-fetch': 0.0.1
-      '@graphql-tools/utils': 10.1.2(graphql@15.8.0)
+      '@graphql-tools/utils': 10.1.3(graphql@15.8.0)
       '@whatwg-node/fetch': 0.9.17
       graphql: 15.8.0
       tslib: 2.6.2
@@ -3712,7 +3723,7 @@ packages:
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
     dependencies:
-      '@graphql-tools/utils': 10.1.2(graphql@15.8.0)
+      '@graphql-tools/utils': 10.1.3(graphql@15.8.0)
       graphql: 15.8.0
       tslib: 2.6.2
     dev: true
@@ -3723,7 +3734,7 @@ packages:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
     dependencies:
       graphql: 15.8.0
-      tslib: 2.6.2
+      tslib: 2.4.1
     dev: true
 
   /@graphql-tools/relay-operation-optimizer@6.5.18(graphql@15.8.0):
@@ -3734,7 +3745,7 @@ packages:
       '@ardatan/relay-compiler': 12.0.0(graphql@15.8.0)
       '@graphql-tools/utils': 9.2.1(graphql@15.8.0)
       graphql: 15.8.0
-      tslib: 2.6.2
+      tslib: 2.4.1
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -3747,7 +3758,7 @@ packages:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
     dependencies:
       '@graphql-tools/merge': 9.0.3(graphql@15.8.0)
-      '@graphql-tools/utils': 10.1.2(graphql@15.8.0)
+      '@graphql-tools/utils': 10.1.3(graphql@15.8.0)
       graphql: 15.8.0
       tslib: 2.6.2
       value-or-promise: 1.0.12
@@ -3765,8 +3776,8 @@ packages:
       value-or-promise: 1.0.12
     dev: true
 
-  /@graphql-tools/utils@10.1.2(graphql@15.8.0):
-    resolution: {integrity: sha512-fX13CYsDnX4yifIyNdiN0cVygz/muvkreWWem6BBw130+ODbRRgfiVveL0NizCEnKXkpvdeTy9Bxvo9LIKlhrw==}
+  /@graphql-tools/utils@10.1.3(graphql@15.8.0):
+    resolution: {integrity: sha512-loco2ctrrMQzdpSHbcOo6+Ecp21BV67cQ2pNGhuVKAexruu01RdLn3LgtK47B9BpLz3cUD6U0u1R0rur7xMOOg==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
@@ -6279,7 +6290,7 @@ packages:
       graphql: ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
     dependencies:
       graphql: 15.8.0
-      tslib: 2.3.1
+      tslib: 2.4.1
     dev: true
 
   /graphql-transformer-common@4.30.0:
