@@ -1977,8 +1977,8 @@ packages:
     resolution: {integrity: sha512-TDYP3CpCrxwxpiNY0UMNf096H5Ihf67BK1iKGegQl5u9SlpEDYrvnV71gWBGJm+Xm31qOy8ATgma9rm8Pe7/5Q==}
     engines: {node: '>=16.0.0'}
 
-  '@whatwg-node/node-fetch@0.5.10':
-    resolution: {integrity: sha512-KIAHepie/T1PRkUfze4t+bPlyvpxlWiXTPtcGlbIZ0vWkBJMdRmCg4ZrJ2y4XaO1eTPo1HlWYUuj1WvoIpumqg==}
+  '@whatwg-node/node-fetch@0.5.11':
+    resolution: {integrity: sha512-LS8tSomZa3YHnntpWt3PP43iFEEl6YeIsvDakczHBKlay5LdkXFr8w7v8H6akpG5nRrzydyB0k1iE2eoL6aKIQ==}
     engines: {node: '>=16.0.0'}
 
   '@xstate/react@3.2.2':
@@ -7291,10 +7291,10 @@ snapshots:
 
   '@whatwg-node/fetch@0.9.17':
     dependencies:
-      '@whatwg-node/node-fetch': 0.5.10
+      '@whatwg-node/node-fetch': 0.5.11
       urlpattern-polyfill: 10.0.0
 
-  '@whatwg-node/node-fetch@0.5.10':
+  '@whatwg-node/node-fetch@0.5.11':
     dependencies:
       '@kamilkisiela/fast-url-parser': 1.1.4
       '@whatwg-node/events': 0.1.1
