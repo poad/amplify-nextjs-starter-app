@@ -13,10 +13,10 @@ importers:
         version: 6.0.28
       '@aws-amplify/ui-react':
         specifier: ^6.1.8
-        version: 6.1.8(@types/react@18.3.0)(aws-amplify@6.0.30(constructs@10.3.0))(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(xstate@4.38.3)
+        version: 6.1.8(@types/react@18.3.0)(aws-amplify@6.1.4(constructs@10.3.0))(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(xstate@4.38.3)
       aws-amplify:
-        specifier: ^6.0.30
-        version: 6.0.30(constructs@10.3.0)
+        specifier: ^6.1.4
+        version: 6.1.4(constructs@10.3.0)
       next:
         specifier: 13.5.4
         version: 13.5.4(@babel/core@7.24.4)(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
@@ -71,19 +71,19 @@ packages:
     peerDependencies:
       '@aws-amplify/core': ^6.0.0
 
-  '@aws-amplify/api-graphql@4.0.29':
-    resolution: {integrity: sha512-VjgAMYxqs028s/y0F4neVJ7IPEQAvyacF6ftlH2cHL64HH/7ekeaFXMt87Eyl/r48lia8zyN3lRZCuw6dm6JIA==}
+  '@aws-amplify/api-graphql@4.0.30':
+    resolution: {integrity: sha512-P6H6a2cI7e8HcEVkydAp8WsXSIVvmB/TijGXfy3ErEnT0HW8Butl1K6jK2Yxe8qD7SBaYjcyewDOiOfUkYkk/g==}
 
   '@aws-amplify/api-rest@4.0.28':
     resolution: {integrity: sha512-X02Lbe9+7razFLZBi09GjP1Sb8vr2Ii4DOL8dk+G/CN4QyeWCYXs+2dcfHiouoSJNWIaPCMG4R0RgmWHUrgnVg==}
     peerDependencies:
       '@aws-amplify/core': ^6.0.0
 
-  '@aws-amplify/api@6.0.29':
-    resolution: {integrity: sha512-YPmsweI4MewKGnx+vqjXaikpv5KnXg0722Y6DxAewBEB6n3S+xfN87C0WONODDgd0v3yjebCS3/pVTyaGcLaJw==}
+  '@aws-amplify/api@6.0.30':
+    resolution: {integrity: sha512-T/1+5oN5SKle0aXoBOjEdZoDl6uDrhQDfD1ob7zOuDtwC4CZIc4FrzK6wDsxICGXQ2dUeswnX/HpqTnftZMd/g==}
 
-  '@aws-amplify/appsync-modelgen-plugin@2.10.0':
-    resolution: {integrity: sha512-ZyUJJcS7wXITMfMu9u19uQjF+4V1mmNv06p0etic1DqCLFM6gxDAsLEN45TuKYsPx9Kgq2v0qvaQiCEV6f+C0A==}
+  '@aws-amplify/appsync-modelgen-plugin@2.11.0':
+    resolution: {integrity: sha512-I2g6r1lmYo1trN2xfhvpuO1c55bbcsj63y4hHKeBdBTHDiHiuKL6bHNJtCc368L+IbZOvKdEG999HczpUAnN6w==}
     peerDependencies:
       graphql: ^15.5.0
 
@@ -98,8 +98,8 @@ packages:
       aws-cdk-lib: ^2.110.1
       constructs: ^10.0.0
 
-  '@aws-amplify/auth@6.0.29':
-    resolution: {integrity: sha512-Bt1VQIB+RsLfKWxOZY4kYdLWGFBnJtzIjIj8sRauI7tfWFKHm4zoPuQqyiKi86cKvwL3jK3eKX8RYxdVbYdLyw==}
+  '@aws-amplify/auth@6.2.1':
+    resolution: {integrity: sha512-LvLVHCIu0w6bReD4l28AWQ9ZCXVKwPQ2cIyP3KQ+uRRgemL5O+7X2HJEeoe5rNwoa1VRTDEZiuBhJlkQVtnYsA==}
     peerDependencies:
       '@aws-amplify/core': ^6.0.0
 
@@ -195,8 +195,8 @@ packages:
   '@aws-amplify/core@6.0.28':
     resolution: {integrity: sha512-bjp/MgIkFmB7JleBRhFQ9C7tD+Y294F+XXKkpvxGnR1WlPdz2h1P51fCk0j3kpKJRVeo7VyVMTAY21QiWHBS6g==}
 
-  '@aws-amplify/data-construct@1.7.2':
-    resolution: {integrity: sha512-SavE9j1kdrToFQk/CUCXFJ9DrrahW0g4Dx2/g2kPEanvUpUQwMIT1jQ6N6YWNL2+/7HL3grxG/58LvceX/VO5w==}
+  '@aws-amplify/data-construct@1.8.0':
+    resolution: {integrity: sha512-RkJ+y+sG2GYW96bx3IZRxIBbfBj7s6KIuMPDluX6DH0gSWpd2pJiLUyXlGZPkPpO6cJjgB4sXER9f+ORPpqudA==}
     peerDependencies:
       aws-cdk-lib: ^2.80.0
       constructs: ^10.0.5
@@ -249,11 +249,11 @@ packages:
   '@aws-amplify/data-schema@0.12.14':
     resolution: {integrity: sha512-uh8TMrsxOsCM0MZ+atmq7t5CbQFtd7hLNucruB2dXXIXonn3moF55i4hl91y3tfpXxRADCDazIaqMSRAwZ/6mw==}
 
-  '@aws-amplify/data-schema@0.16.2':
-    resolution: {integrity: sha512-Ij9Lig1L+JCxWe1hX9MqSqbAGUpYnV+H7321dZlD2gBEPhnyzjm78bCXThvadM77EiMzE4DDn93q+fk5Dm8++Q==}
+  '@aws-amplify/data-schema@0.17.1':
+    resolution: {integrity: sha512-E9Iq68arbBCjtVg1vIrjQ7/WQ6cg4EzulPAJPBFHEFlF23p9XDT1gX2kSkm4u+X0Nptb3EaMdjYzpMz4WcO3Dg==}
 
-  '@aws-amplify/datastore@5.0.29':
-    resolution: {integrity: sha512-5TwvWxnvWN5+Pd5xaOowc/apmlyhv3KvL2dkHQdI/koBtboqibU7zcfC+LNhqjzZLdd2Pd2lXb7HTftxf3kIxQ==}
+  '@aws-amplify/datastore@5.0.30':
+    resolution: {integrity: sha512-VIFTCMQa0bjxk/F/ZCFVfXsv75c31o/xOgp77JZy3oPuan3XlQ0IBKoBYfld9xzxu5Xd3TON7dnyQNAUE/ynuw==}
     peerDependencies:
       '@aws-amplify/core': ^6.0.0
 
@@ -269,8 +269,8 @@ packages:
       aws-cdk-lib: ^2.110.1
       constructs: ^10.0.0
 
-  '@aws-amplify/graphql-api-construct@1.8.1':
-    resolution: {integrity: sha512-PQf7JfD9enno0A6RcY/idiuYlGkfxSD/iNoQf5+vBHCyJOP3A7w9aJa5+t4KdvxZygUW51S58mbxByHz1AJ8Ow==}
+  '@aws-amplify/graphql-api-construct@1.9.0':
+    resolution: {integrity: sha512-Syap3/oH1yqYni+aq2Lg3NlztC7SKvn6MJgDdv7mPJ+YhT3rOs8Xe5i+gZ7BuDQXb1YoKjur/3LY0S8ZcaDpDg==}
     peerDependencies:
       aws-cdk-lib: ^2.80.0
       constructs: ^10.0.5
@@ -332,8 +332,8 @@ packages:
     engines: {node: '>=10.0.0'}
     hasBin: true
 
-  '@aws-amplify/graphql-types-generator@3.5.0':
-    resolution: {integrity: sha512-Fm8M/CetzwI1dXSxAov38zOm10HpRlfRIEGEWDToDSAxIvYqddm9sn2Dn98r3uGDsoH8WFtVXrGrjRKkOzGFZQ==}
+  '@aws-amplify/graphql-types-generator@3.6.0':
+    resolution: {integrity: sha512-yjPXJ2dYZwtGvwwcEQ5RDNlwTsd/hUfD2Dgguo999Gu3mQjz7nV4l7CXD/Oxo/QzwtU/4rmTX69yadBpR+he3A==}
     engines: {node: '>=10.0.0'}
     hasBin: true
 
@@ -402,8 +402,8 @@ packages:
       aws-cdk-lib: ^2.110.1
       constructs: ^10.0.0
 
-  '@aws-amplify/storage@6.0.28':
-    resolution: {integrity: sha512-OBd1FLW8b9GrGY00XWFyusW3ElbK7VUa+Qewk04OAEOTS4+bwwTZSjO/vIOB5VmRB4w+1K5EwaJIMva7T9kn0A==}
+  '@aws-amplify/storage@6.3.1':
+    resolution: {integrity: sha512-k8W89ySzzoXCCl3Vn2DZPj7bXEJkBUS8GTPKG7kvD/Cn6IQRupINqzDWSw9P47XE0tJzbp6evyn7NMVd1W5Hbg==}
     peerDependencies:
       '@aws-amplify/core': ^6.0.0
 
@@ -2051,8 +2051,8 @@ packages:
     resolution: {integrity: sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==}
     engines: {node: '>= 0.4'}
 
-  aws-amplify@6.0.30:
-    resolution: {integrity: sha512-SUHkROj/MzN0H0K4GEy9K64ppxdxpNhiZBhtjsCJeZG2z/xs6r3h40qr/hcLox/AXcY3teKyXkA3DJXjHAT2VA==}
+  aws-amplify@6.1.4:
+    resolution: {integrity: sha512-FA+BVYbb9Pej4Md6vNiuUiXA9VZpQs4u5pzOhzfWgpsBZRE6Z0RMfMFg6tcW2dvSxjk2DX1s6l8v+9gqqKsA5Q==}
 
   aws-cdk@2.137.0:
     resolution: {integrity: sha512-3pf3SVDwNZvo3EfhO3yl1B+KbRHz7T4UmPifUEKfOwk7ABAFLRSNddZuUlF560XSBTFLkrZoeBDa0/MLJT6F4g==}
@@ -2574,8 +2574,8 @@ packages:
   graceful-fs@4.2.11:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
 
-  graphql-mapping-template@4.20.15:
-    resolution: {integrity: sha512-YoZifSmrWSGX+JcHv15wlZOybcPh6D3Odc+0K55IyBX6+qzASvQ9JKa1TVcNan72VUl9UiErqK+ZawdtyrbVDg==}
+  graphql-mapping-template@4.20.16:
+    resolution: {integrity: sha512-J+shdngmnAxBM4mS4ga2RGusbPRMMO/TfRiNuHNKHxEU8O85us9zC6l7kSQ9hkWQDrKISJfDaesNKO3Jo5GerA==}
 
   graphql-tag@2.12.6:
     resolution: {integrity: sha512-FdSNcu2QQcWnM2VNvSCCDCVS5PpPqpzgFT8+GXzqJuoDd0CBncxCY278u4mhRO7tMgo2JjgJA5aZ+nWSQ/Z+xg==}
@@ -2583,8 +2583,8 @@ packages:
     peerDependencies:
       graphql: ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
 
-  graphql-transformer-common@4.30.0:
-    resolution: {integrity: sha512-NsY2dmRfejkS80SdzLnmXgZurJXdCKitwhkWYPjGBwH+K3mXRAT+8ZnhqAGg1eEYuWzPswdBozaLs52bn98WyQ==}
+  graphql-transformer-common@4.30.1:
+    resolution: {integrity: sha512-SPitc4dEtWdyy+xe3FJSsvqw64ScMkl5mBpHK+P/iEMJEp9YE6H+s+9GAcewBhDSTDZibDHE+dT04a91FYN27w==}
 
   graphql@15.8.0:
     resolution: {integrity: sha512-5gghUc24tP9HRznNpV2+FIoq3xKkj5dTQqf4v0CpdPbFVwFkWoxOM+o+2OC9ZSvjEMTjfmG9QT+gcvggTwW1zw==}
@@ -3741,11 +3741,11 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  '@aws-amplify/api-graphql@4.0.29(constructs@10.3.0)':
+  '@aws-amplify/api-graphql@4.0.30(constructs@10.3.0)':
     dependencies:
       '@aws-amplify/api-rest': 4.0.28(@aws-amplify/core@6.0.28)
       '@aws-amplify/core': 6.0.28
-      '@aws-amplify/data-schema': 0.16.2(@aws-sdk/types@3.387.0)(constructs@10.3.0)
+      '@aws-amplify/data-schema': 0.17.1(@aws-sdk/types@3.387.0)(constructs@10.3.0)
       '@aws-sdk/types': 3.387.0
       graphql: 15.8.0
       rxjs: 7.8.1
@@ -3760,9 +3760,9 @@ snapshots:
       '@aws-amplify/core': 6.0.28
       tslib: 2.6.2
 
-  '@aws-amplify/api@6.0.29(@aws-amplify/core@6.0.28)(constructs@10.3.0)':
+  '@aws-amplify/api@6.0.30(@aws-amplify/core@6.0.28)(constructs@10.3.0)':
     dependencies:
-      '@aws-amplify/api-graphql': 4.0.29(constructs@10.3.0)
+      '@aws-amplify/api-graphql': 4.0.30(constructs@10.3.0)
       '@aws-amplify/api-rest': 4.0.28(@aws-amplify/core@6.0.28)
       tslib: 2.6.2
     transitivePeerDependencies:
@@ -3770,16 +3770,15 @@ snapshots:
       - aws-cdk-lib
       - constructs
 
-  '@aws-amplify/appsync-modelgen-plugin@2.10.0(graphql@15.8.0)':
+  '@aws-amplify/appsync-modelgen-plugin@2.11.0(graphql@15.8.0)':
     dependencies:
       '@graphql-codegen/plugin-helpers': 1.18.8(graphql@15.8.0)
       '@graphql-codegen/visitor-plugin-common': 1.22.0(graphql@15.8.0)
       '@graphql-tools/utils': 6.2.4(graphql@15.8.0)
-      ajv: 6.12.6
       chalk: 3.0.0
       change-case: 4.1.2
       graphql: 15.8.0
-      graphql-transformer-common: 4.30.0
+      graphql-transformer-common: 4.30.1
       lower-case-first: 2.0.2
       pluralize: 8.0.0
       strip-indent: 3.0.0
@@ -3797,7 +3796,7 @@ snapshots:
       chalk: 3.0.0
       change-case: 4.1.2
       graphql: 15.8.0
-      graphql-transformer-common: 4.30.0
+      graphql-transformer-common: 4.30.1
       lower-case-first: 2.0.2
       pluralize: 8.0.0
       strip-indent: 3.0.0
@@ -3817,7 +3816,7 @@ snapshots:
       - aws-crt
       - zod
 
-  '@aws-amplify/auth@6.0.29(@aws-amplify/core@6.0.28)':
+  '@aws-amplify/auth@6.2.1(@aws-amplify/core@6.0.28)':
     dependencies:
       '@aws-amplify/core': 6.0.28
       tslib: 2.6.2
@@ -3871,7 +3870,7 @@ snapshots:
     dependencies:
       '@aws-amplify/backend-output-schemas': 0.4.0(zod@3.23.4)
       '@aws-amplify/backend-output-storage': 0.2.6(constructs@10.3.0)(zod@3.23.4)
-      '@aws-amplify/data-construct': 1.7.2(constructs@10.3.0)
+      '@aws-amplify/data-construct': 1.8.0(constructs@10.3.0)
       '@aws-amplify/data-schema-types': 0.6.12
       '@aws-amplify/plugin-types': 0.5.0(constructs@10.3.0)
       constructs: 10.3.0
@@ -4034,9 +4033,9 @@ snapshots:
       tslib: 2.6.2
       uuid: 9.0.1
 
-  '@aws-amplify/data-construct@1.7.2(constructs@10.3.0)':
+  '@aws-amplify/data-construct@1.8.0(constructs@10.3.0)':
     dependencies:
-      '@aws-amplify/graphql-api-construct': 1.8.1(constructs@10.3.0)
+      '@aws-amplify/graphql-api-construct': 1.9.0(constructs@10.3.0)
       constructs: 10.3.0
 
   '@aws-amplify/data-schema-types@0.10.0(@aws-sdk/types@3.387.0)(constructs@10.3.0)':
@@ -4071,7 +4070,7 @@ snapshots:
       - aws-cdk-lib
       - constructs
 
-  '@aws-amplify/data-schema@0.16.2(@aws-sdk/types@3.387.0)(constructs@10.3.0)':
+  '@aws-amplify/data-schema@0.17.1(@aws-sdk/types@3.387.0)(constructs@10.3.0)':
     dependencies:
       '@aws-amplify/data-schema-types': 0.10.0(@aws-sdk/types@3.387.0)(constructs@10.3.0)
       '@types/aws-lambda': 8.10.137
@@ -4081,9 +4080,9 @@ snapshots:
       - aws-cdk-lib
       - constructs
 
-  '@aws-amplify/datastore@5.0.29(@aws-amplify/core@6.0.28)(constructs@10.3.0)':
+  '@aws-amplify/datastore@5.0.30(@aws-amplify/core@6.0.28)(constructs@10.3.0)':
     dependencies:
-      '@aws-amplify/api': 6.0.29(@aws-amplify/core@6.0.28)(constructs@10.3.0)
+      '@aws-amplify/api': 6.0.30(@aws-amplify/core@6.0.28)(constructs@10.3.0)
       '@aws-amplify/core': 6.0.28
       buffer: 4.9.2
       idb: 5.0.6
@@ -4110,7 +4109,7 @@ snapshots:
 
   '@aws-amplify/form-generator@0.6.1(react-dom@18.3.0(react@18.3.0))(react@18.3.0)':
     dependencies:
-      '@aws-amplify/appsync-modelgen-plugin': 2.10.0(graphql@15.8.0)
+      '@aws-amplify/appsync-modelgen-plugin': 2.11.0(graphql@15.8.0)
       '@aws-amplify/codegen-ui': 2.20.1
       '@aws-amplify/codegen-ui-react': 2.20.1(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
       '@aws-amplify/graphql-docs-generator': 4.2.1
@@ -4137,7 +4136,7 @@ snapshots:
       - aws-crt
       - zod
 
-  '@aws-amplify/graphql-api-construct@1.8.1(constructs@10.3.0)':
+  '@aws-amplify/graphql-api-construct@1.9.0(constructs@10.3.0)':
     dependencies:
       constructs: 10.3.0
 
@@ -4183,7 +4182,7 @@ snapshots:
       source-map-support: 0.5.21
       yargs: 15.4.1
 
-  '@aws-amplify/graphql-types-generator@3.5.0':
+  '@aws-amplify/graphql-types-generator@3.6.0':
     dependencies:
       '@babel/generator': 7.0.0-beta.4
       '@babel/types': 7.0.0-beta.4
@@ -4206,7 +4205,7 @@ snapshots:
       '@aws-amplify/backend-output-schemas': 0.5.2(zod@3.23.4)
       '@aws-amplify/deployed-backend-client': 0.3.10(constructs@10.3.0)
       '@aws-amplify/graphql-generator': 0.1.5
-      '@aws-amplify/graphql-types-generator': 3.5.0
+      '@aws-amplify/graphql-types-generator': 3.6.0
       '@aws-sdk/client-appsync': 3.563.0
       '@aws-sdk/client-s3': 3.563.0
       '@aws-sdk/credential-providers': 3.563.0
@@ -4329,7 +4328,7 @@ snapshots:
       - aws-crt
       - zod
 
-  '@aws-amplify/storage@6.0.28(@aws-amplify/core@6.0.28)':
+  '@aws-amplify/storage@6.3.1(@aws-amplify/core@6.0.28)':
     dependencies:
       '@aws-amplify/core': 6.0.28
       '@aws-sdk/types': 3.398.0
@@ -4338,11 +4337,11 @@ snapshots:
       fast-xml-parser: 4.3.6
       tslib: 2.6.2
 
-  '@aws-amplify/ui-react-core@3.0.13(@types/react@18.3.0)(aws-amplify@6.0.30(constructs@10.3.0))(react@18.3.0)':
+  '@aws-amplify/ui-react-core@3.0.13(@types/react@18.3.0)(aws-amplify@6.1.4(constructs@10.3.0))(react@18.3.0)':
     dependencies:
-      '@aws-amplify/ui': 6.0.13(aws-amplify@6.0.30(constructs@10.3.0))(xstate@4.38.3)
+      '@aws-amplify/ui': 6.0.13(aws-amplify@6.1.4(constructs@10.3.0))(xstate@4.38.3)
       '@xstate/react': 3.2.2(@types/react@18.3.0)(react@18.3.0)(xstate@4.38.3)
-      aws-amplify: 6.0.30(constructs@10.3.0)
+      aws-amplify: 6.1.4(constructs@10.3.0)
       lodash: 4.17.21
       react: 18.3.0
       react-hook-form: 7.51.3(react@18.3.0)
@@ -4351,10 +4350,10 @@ snapshots:
       - '@types/react'
       - '@xstate/fsm'
 
-  '@aws-amplify/ui-react@6.1.8(@types/react@18.3.0)(aws-amplify@6.0.30(constructs@10.3.0))(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(xstate@4.38.3)':
+  '@aws-amplify/ui-react@6.1.8(@types/react@18.3.0)(aws-amplify@6.1.4(constructs@10.3.0))(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(xstate@4.38.3)':
     dependencies:
-      '@aws-amplify/ui': 6.0.13(aws-amplify@6.0.30(constructs@10.3.0))(xstate@4.38.3)
-      '@aws-amplify/ui-react-core': 3.0.13(@types/react@18.3.0)(aws-amplify@6.0.30(constructs@10.3.0))(react@18.3.0)
+      '@aws-amplify/ui': 6.0.13(aws-amplify@6.1.4(constructs@10.3.0))(xstate@4.38.3)
+      '@aws-amplify/ui-react-core': 3.0.13(@types/react@18.3.0)(aws-amplify@6.1.4(constructs@10.3.0))(react@18.3.0)
       '@radix-ui/react-direction': 1.0.0(react@18.3.0)
       '@radix-ui/react-dropdown-menu': 1.0.0(@types/react@18.3.0)(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
       '@radix-ui/react-slider': 1.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
@@ -4365,15 +4364,15 @@ snapshots:
       react-dom: 18.3.0(react@18.3.0)
       tslib: 2.6.2
     optionalDependencies:
-      aws-amplify: 6.0.30(constructs@10.3.0)
+      aws-amplify: 6.1.4(constructs@10.3.0)
     transitivePeerDependencies:
       - '@types/react'
       - '@xstate/fsm'
       - xstate
 
-  '@aws-amplify/ui@6.0.13(aws-amplify@6.0.30(constructs@10.3.0))(xstate@4.38.3)':
+  '@aws-amplify/ui@6.0.13(aws-amplify@6.1.4(constructs@10.3.0))(xstate@4.38.3)':
     dependencies:
-      aws-amplify: 6.0.30(constructs@10.3.0)
+      aws-amplify: 6.1.4(constructs@10.3.0)
       csstype: 3.1.3
       lodash: 4.17.21
       style-dictionary: 3.9.1
@@ -6411,14 +6410,14 @@ snapshots:
   '@graphql-tools/optimize@1.4.0(graphql@15.8.0)':
     dependencies:
       graphql: 15.8.0
-      tslib: 2.4.1
+      tslib: 2.6.2
 
   '@graphql-tools/relay-operation-optimizer@6.5.18(graphql@15.8.0)':
     dependencies:
       '@ardatan/relay-compiler': 12.0.0(graphql@15.8.0)
       '@graphql-tools/utils': 9.2.1(graphql@15.8.0)
       graphql: 15.8.0
-      tslib: 2.4.1
+      tslib: 2.6.2
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -7375,15 +7374,15 @@ snapshots:
     dependencies:
       possible-typed-array-names: 1.0.0
 
-  aws-amplify@6.0.30(constructs@10.3.0):
+  aws-amplify@6.1.4(constructs@10.3.0):
     dependencies:
       '@aws-amplify/analytics': 7.0.28(@aws-amplify/core@6.0.28)
-      '@aws-amplify/api': 6.0.29(@aws-amplify/core@6.0.28)(constructs@10.3.0)
-      '@aws-amplify/auth': 6.0.29(@aws-amplify/core@6.0.28)
+      '@aws-amplify/api': 6.0.30(@aws-amplify/core@6.0.28)(constructs@10.3.0)
+      '@aws-amplify/auth': 6.2.1(@aws-amplify/core@6.0.28)
       '@aws-amplify/core': 6.0.28
-      '@aws-amplify/datastore': 5.0.29(@aws-amplify/core@6.0.28)(constructs@10.3.0)
+      '@aws-amplify/datastore': 5.0.30(@aws-amplify/core@6.0.28)(constructs@10.3.0)
       '@aws-amplify/notifications': 2.0.28(@aws-amplify/core@6.0.28)
-      '@aws-amplify/storage': 6.0.28(@aws-amplify/core@6.0.28)
+      '@aws-amplify/storage': 6.3.1(@aws-amplify/core@6.0.28)
       tslib: 2.6.2
     transitivePeerDependencies:
       - aws-cdk-lib
@@ -8087,17 +8086,17 @@ snapshots:
 
   graceful-fs@4.2.11: {}
 
-  graphql-mapping-template@4.20.15: {}
+  graphql-mapping-template@4.20.16: {}
 
   graphql-tag@2.12.6(graphql@15.8.0):
     dependencies:
       graphql: 15.8.0
-      tslib: 2.4.1
+      tslib: 2.3.1
 
-  graphql-transformer-common@4.30.0:
+  graphql-transformer-common@4.30.1:
     dependencies:
       graphql: 15.8.0
-      graphql-mapping-template: 4.20.15
+      graphql-mapping-template: 4.20.16
       md5: 2.3.0
       pluralize: 8.0.0
 
