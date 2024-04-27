@@ -13,32 +13,32 @@ importers:
         version: 6.0.28
       '@aws-amplify/ui-react':
         specifier: ^6.1.8
-        version: 6.1.8(@types/react@18.3.0)(aws-amplify@6.1.4(constructs@10.3.0))(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(xstate@4.38.3)
+        version: 6.1.8(@types/react@18.3.1)(aws-amplify@6.1.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(xstate@4.38.3)
       aws-amplify:
         specifier: ^6.1.4
-        version: 6.1.4(constructs@10.3.0)
+        version: 6.1.4
       next:
         specifier: 13.5.4
-        version: 13.5.4(@babel/core@7.24.4)(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
+        version: 13.5.4(@babel/core@7.24.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react:
-        specifier: ^18.3.0
-        version: 18.3.0
+        specifier: ^18.3.1
+        version: 18.3.1
       react-dom:
-        specifier: ^18.3.0
-        version: 18.3.0(react@18.3.0)
+        specifier: ^18.3.1
+        version: 18.3.1(react@18.3.1)
     devDependencies:
       '@aws-amplify/backend':
         specifier: ^0.5.5
-        version: 0.5.5(@aws-sdk/types@3.535.0)(constructs@10.3.0)(zod@3.23.4)
+        version: 0.5.5(constructs@10.3.0)(zod@3.23.4)
       '@aws-amplify/backend-cli':
         specifier: ^0.9.7
-        version: 0.9.7(@aws-sdk/credential-provider-node@3.563.0)(@aws-sdk/types@3.535.0)(aws-cdk@2.137.0)(constructs@10.3.0)(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(typescript@5.4.5)
+        version: 0.9.7(@aws-sdk/credential-provider-node@3.564.0)(@aws-sdk/types@3.535.0)(aws-cdk@2.137.0)(constructs@10.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.4.5)
       '@types/node':
         specifier: ^20.12.7
         version: 20.12.7
       '@types/react':
-        specifier: ^18.3.0
-        version: 18.3.0
+        specifier: ^18.3.1
+        version: 18.3.1
       '@types/react-dom':
         specifier: ^18.3.0
         version: 18.3.0
@@ -162,8 +162,8 @@ packages:
   '@aws-amplify/backend-secret@0.3.4':
     resolution: {integrity: sha512-IHJh8dOukz2QsFsPwce/aFK8c+E0DmzGb4w/PhUzkANE3QA4uey/OXyYUM7eZaUeaxFqBEa0lyjOMv90u0bVoA==}
 
-  '@aws-amplify/backend-secret@0.4.5':
-    resolution: {integrity: sha512-qtfToUuxmZTG+VkWdGYGZB86G0xYzE38bsC5oo7Wy0It1NrVO+6VsPFh+rNMrYHvFJdcOiOllcDpPVqOxjEGQQ==}
+  '@aws-amplify/backend-secret@0.4.6':
+    resolution: {integrity: sha512-X1KS6542L1mS4iMqJE5ZV/Jblsr+nW/iZDcgl049vKRxwi0QgAr71+g63PQFvA4hbAR7cAIk+Fels9daP2+GLg==}
 
   '@aws-amplify/backend-storage@0.3.2':
     resolution: {integrity: sha512-FW3lAIcp1Iyfy3mJ7jLnoYMsJdlj4RjcHxzLMRHykUnwsH40RDLVUN/xpThBVb78yDqKs6gWBXyN+PKyQaWGgQ==}
@@ -240,11 +240,11 @@ packages:
       - pluralize
       - universalify
 
-  '@aws-amplify/data-schema-types@0.10.0':
-    resolution: {integrity: sha512-HIfSGPcqDu7ZyHzncGiTPDElOKl7N/ZGBF1T0RWlm7jqNVOl6AYzr9dMyPSw7/e8p5SxlKNxhUoyvo7iwkWXww==}
-
   '@aws-amplify/data-schema-types@0.6.12':
     resolution: {integrity: sha512-0ZpWnN+UxrUHHyj9rtoz/wljo8PvvZYt1nxu7lR1HFFa2dQqYVHD4a8umMIi5pQBo4DfCOkITri18hmslzhBOw==}
+
+  '@aws-amplify/data-schema-types@1.0.0':
+    resolution: {integrity: sha512-sjw68YTpGNSDoNI1WBAgFWaUFpmmwFtkZQE/r+P9jWrVZPyBlfDeRIc3RhPgUrtW91hLCm4WA8TzYf1eZzJstg==}
 
   '@aws-amplify/data-schema@0.12.14':
     resolution: {integrity: sha512-uh8TMrsxOsCM0MZ+atmq7t5CbQFtd7hLNucruB2dXXIXonn3moF55i4hl91y3tfpXxRADCDazIaqMSRAwZ/6mw==}
@@ -351,8 +351,15 @@ packages:
   '@aws-amplify/platform-core@0.4.4':
     resolution: {integrity: sha512-FQb4nScw+30e2G44Fl1SMqe3yGWMtds02Drnpkh+egM3Ofd0//bDRD2uKqDPckVPulyX+g4pAuAq4Z30hwjQCQ==}
 
-  '@aws-amplify/platform-core@0.5.0':
-    resolution: {integrity: sha512-vOeTCdj/3c8lTIya2x9+RYxNK2Ae7WvkeaXBn/iVKNL5uTxheOJ6IocJm9ZL4auuo89QWcf2CBcb/hATJgpa9A==}
+  '@aws-amplify/platform-core@0.5.1':
+    resolution: {integrity: sha512-9FjIJXovWx5d/NhKE530rApYtiMvASeEZoJEBnO07a6UOoaSowXsO+DdeAHUwXBaKgcx9mZmMMR47vHD5swiXA==}
+
+  '@aws-amplify/plugin-types@0.10.0':
+    resolution: {integrity: sha512-spTTtmGwohBKqAoOSDLL6107zC2p9YDsoww2i2lMUVZbf8hwILReLZQcwjV7sdzfYYDvLr2o1AgjvWU0PcnicQ==}
+    peerDependencies:
+      '@aws-sdk/types': ^3.465.0
+      aws-cdk-lib: ^2.127.0
+      constructs: ^10.0.0
 
   '@aws-amplify/plugin-types@0.4.2':
     resolution: {integrity: sha512-zJPNzo/hLZ3qnFwOrPk0sQoyIkPlYf0yTvBFvQGsPrramQhFkEsSjcDtr+Pvxp4LYThFCDqZ9ynAdXa/FJkVgg==}
@@ -382,13 +389,6 @@ packages:
     resolution: {integrity: sha512-38w0dV2dS40uZB4gYa7sc+YnoLtRKdfhHDKpCqSx5ml/rq1PvzEcExiSfrPddC7/ZBLr0IUZH74evVCHzOcPDg==}
     peerDependencies:
       aws-cdk-lib: ^2.110.1
-      constructs: ^10.0.0
-
-  '@aws-amplify/plugin-types@0.9.0':
-    resolution: {integrity: sha512-dOwuyjRWKHvKSxcCwycdBTb6clRr2/soW1hL+HaXyTN69+dQanQegpS6ylmVwbPPiy9q2LCbqaw+5Np7bacLgw==}
-    peerDependencies:
-      '@aws-sdk/types': ^3.465.0
-      aws-cdk-lib: ^2.127.0
       constructs: ^10.0.0
 
   '@aws-amplify/sandbox@0.3.14':
@@ -463,24 +463,24 @@ packages:
   '@aws-crypto/util@5.2.0':
     resolution: {integrity: sha512-4RkU9EsI6ZpBve5fseQlGNUWKMa1RLPQ1dnjnQoe07ldfIzcsGb5hC5W0Dm7u423KWzawlrpbjXBrXCEv9zazQ==}
 
-  '@aws-sdk/client-amplify@3.563.0':
-    resolution: {integrity: sha512-mhu1Y5SJ3QTd4adR4aI8rrH+WxKge68vmsvj7OfhpqkDvtDBl6LWGoqwc2EqbYufDN/eZp9OwZGJqsUXEOsmwQ==}
+  '@aws-sdk/client-amplify@3.564.0':
+    resolution: {integrity: sha512-uvMmuquDlCsWjV2bbPpkXPBRixvGC36PkJo/cgn/BioDWpuQLji4yEllmFGB7uVWpyM6mMo3arPiSYDEjhVWyg==}
     engines: {node: '>=14.0.0'}
 
-  '@aws-sdk/client-amplifyuibuilder@3.563.0':
-    resolution: {integrity: sha512-M+E5lMrgJzfRIgOEkQ5WGo/Gow1JMStRoBoHWOucbyrkZHy2wZlWTVBp+CDl3/mTrNKkSGbe5XeJHXTWFwCUZw==}
+  '@aws-sdk/client-amplifyuibuilder@3.564.0':
+    resolution: {integrity: sha512-UyfXnznxZpeBtqzKNlHVttEw6wVsECDmZPkEoZc5Cabchx+96IsYhR9PJ0D7KmGrSAvawbYQB7RFlorE6Gyy6Q==}
     engines: {node: '>=14.0.0'}
 
-  '@aws-sdk/client-appsync@3.563.0':
-    resolution: {integrity: sha512-kVa1FLdAzZRRbeXh0OKVGo57CffxyO/ImfQqp5E3r1jgkVrdd8UH7kDSSCznB3brD4swMkiB+I0nkaR9sDqs8Q==}
+  '@aws-sdk/client-appsync@3.564.0':
+    resolution: {integrity: sha512-8RbN2Djk7NGRPBcleBuBvgBh/WXCdRkmbc45Uu4lH1F0U2pnL67TVPxQGUajKe+VFmSZc6tIMBvk+jj7SzRyHA==}
     engines: {node: '>=14.0.0'}
 
-  '@aws-sdk/client-cloudformation@3.563.0':
-    resolution: {integrity: sha512-QlOsOEO2yuAPcYmFxn7k3RVrPv79XgTU+PFpdTWklfOzhAT+pxy+6Ejp58tpmcaPM5ALYh7HOGoMcA5iSY+3ng==}
+  '@aws-sdk/client-cloudformation@3.564.0':
+    resolution: {integrity: sha512-yO2Ac78rkMgTpF3OboHWklX9Ju4ut2EFEOOQqPb8DAgg5unhkh7063x6GPHPNJrmRWkJTr0HbVb8tdK5nExmJQ==}
     engines: {node: '>=14.0.0'}
 
-  '@aws-sdk/client-cognito-identity@3.563.0':
-    resolution: {integrity: sha512-hBgxRHmy099lEEJVbAP807HiCZO2RHPldG1ppwyQdPSqGMisAkaw9sgHog/tCSaSty2pkG/YvZtiH9mrhcYwpA==}
+  '@aws-sdk/client-cognito-identity@3.564.0':
+    resolution: {integrity: sha512-AJGd0RXAyycNqb8RBySVkIrzNOd8JzI4sVVC/7pA41t4EeUGM6b2tcsOlt1eVqcNxR1hvn2ZbwnNI8e3OlEnhQ==}
     engines: {node: '>=14.0.0'}
 
   '@aws-sdk/client-firehose@3.398.0':
@@ -495,19 +495,19 @@ packages:
     resolution: {integrity: sha512-dynXr8ZVMC2FxQS5QRr7cu90xAGfwgfZM5XDW2jm81UPK5Qqo2FbbEF4wvdXXbnkbvU5rsmxL1IjQiMGm+lWVg==}
     engines: {node: '>=14.0.0'}
 
-  '@aws-sdk/client-s3@3.563.0':
-    resolution: {integrity: sha512-M9W70sFhP0Am5bB8Y8kXtxoQepZHuM7vG6cIL2/Kk3NBFCwxDDL7Lwi7QmNpFcPgf1poA5EZrXWQimCXgfTOIw==}
+  '@aws-sdk/client-s3@3.564.0':
+    resolution: {integrity: sha512-QvTjjQWC7LB18X7BRvYK6Rc1oK1nToht4KOBR+zXmz4R1TEtMpyC9xgZzzVzp2aocXV1/WuDlg8Mvssx8UmUuQ==}
     engines: {node: '>=14.0.0'}
 
-  '@aws-sdk/client-ssm@3.563.0':
-    resolution: {integrity: sha512-IX6SZ0cEytglbe08J8dxaNKRfSRctgtJ7jtbcOk+Zd3L0LAWvILpM8DfbDHggWYmm2LfD020Yp3DXWWpFfjYdA==}
+  '@aws-sdk/client-ssm@3.564.0':
+    resolution: {integrity: sha512-52YWBKEd6g7z5L+bMYow2jZplGqmBy1LgJ++GqvA2EbGY0qNGklMMX7R5NhQ424ofrJ7NhiPuQWt57LnCNzcIg==}
     engines: {node: '>=14.0.0'}
 
-  '@aws-sdk/client-sso-oidc@3.556.0':
-    resolution: {integrity: sha512-AXKd2TB6nNrksu+OfmHl8uI07PdgzOo4o8AxoRO8SHlwoMAGvcT9optDGVSYoVfgOKTymCoE7h8/UoUfPc11wQ==}
+  '@aws-sdk/client-sso-oidc@3.564.0':
+    resolution: {integrity: sha512-LWBXiwA0qlGhpJx3fbFQagVEyVPoecGtJh3+5hoc+CTVnT00J7T0jLe3kgemvEI9kjhIyDW+MFkq1jCttrGNJw==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
-      '@aws-sdk/credential-provider-node': ^3.556.0
+      '@aws-sdk/credential-provider-node': ^3.564.0
 
   '@aws-sdk/client-sso@3.398.0':
     resolution: {integrity: sha512-CygL0jhfibw4kmWXG/3sfZMFNjcXo66XUuPC4BqZBk8Rj5vFoxp1vZeMkDLzTIk97Nvo5J5Bh+QnXKhub6AckQ==}
@@ -543,8 +543,8 @@ packages:
     resolution: {integrity: sha512-vJaSaHw2kPQlo11j/Rzuz0gk1tEaKdz+2ser0f0qZ5vwFlANjt08m/frU17ctnVKC1s58bxpctO/1P894fHLrA==}
     engines: {node: '>=14.0.0'}
 
-  '@aws-sdk/credential-provider-cognito-identity@3.563.0':
-    resolution: {integrity: sha512-FnvqvH+tLfJKqMJrUjuV1irWb5d++ByeX/3XPj8o/QmajhwCOEJ9akiEEGrawKnssqJWVPX6RIm+8XsiIzmduw==}
+  '@aws-sdk/credential-provider-cognito-identity@3.564.0':
+    resolution: {integrity: sha512-rjpj+VR9NbF9hg2H0gfuhbQL+6WlRVEBBxI8rweSsSm5r5exENqP+xmEdL6mmFCyM/EjDQswNs0td2tVSc/onw==}
     engines: {node: '>=14.0.0'}
 
   '@aws-sdk/credential-provider-env@3.398.0':
@@ -571,8 +571,8 @@ packages:
     resolution: {integrity: sha512-R7IYSGjNZ5KKJwQJ2HNPemjpAMWvdce91i8w+/aHfqeGfTXrmYJu99PeGRyyBTKEumBaojyjTRvmO8HzS+/l7g==}
     engines: {node: '>=14.0.0'}
 
-  '@aws-sdk/credential-provider-ini@3.556.0':
-    resolution: {integrity: sha512-0Nz4ErOlXhe3muxWYMbPwRMgfKmVbBp36BAE2uv/z5wTbfdBkcgUwaflEvlKCLUTdHzuZsQk+BFS/gVyaUeOuA==}
+  '@aws-sdk/credential-provider-ini@3.564.0':
+    resolution: {integrity: sha512-kiEfBoKRcbX7I/rjhVGJrTUQ0895ANhPu6KE1GRZW7wc1gIGgKGJ+0tvAqRtQjYX0U9pivEDb0dh16OF9PBFFw==}
     engines: {node: '>=14.0.0'}
 
   '@aws-sdk/credential-provider-node@3.398.0':
@@ -583,8 +583,8 @@ packages:
     resolution: {integrity: sha512-zI4k4foSjQRKNEsouculRcz7IbLfuqdFxypDLYwn+qPNMqJwWJ7VxOOeBSPUpHFcd7CLSfbHN2JAhQ7M02gPTA==}
     engines: {node: '>=14.0.0'}
 
-  '@aws-sdk/credential-provider-node@3.563.0':
-    resolution: {integrity: sha512-cNGT93uuAzM2ZnWT0rHbT/bjnVRCIQDTi8ylnvNpsOj+zFCn2q2eQAh6fgACPjKhCA7Szc38AX0hH2PDXH6+yg==}
+  '@aws-sdk/credential-provider-node@3.564.0':
+    resolution: {integrity: sha512-HXD5ZCXzfcd6cJ/pW8frh8DuYlKaCd/JKmwzuCRUxgxZwbLEeNmyRYvF+D7osETJJZ4VIwgVbpEw1yLqRz1onw==}
     engines: {node: '>=14.0.0'}
 
   '@aws-sdk/credential-provider-process@3.398.0':
@@ -607,8 +607,8 @@ packages:
     resolution: {integrity: sha512-gJz7kAiDecdhtApgXnxfZsXKsww8BnifDF9MAx9Dr4X6no47qYsCCS3XPuEyRiF9VebXvHOH0H260Zp3bVyniQ==}
     engines: {node: '>=14.0.0'}
 
-  '@aws-sdk/credential-provider-sso@3.556.0':
-    resolution: {integrity: sha512-ETuBgcnpfxqadEAqhQFWpKoV1C/NAgvs5CbBc5EJbelJ8f4prTdErIHjrRtVT8c02MXj92QwczsiNYd5IoOqyw==}
+  '@aws-sdk/credential-provider-sso@3.564.0':
+    resolution: {integrity: sha512-Wv0NV8tDwtydEpsp/kVZ22Z+40bsSBDYgYZ1Uxx+KR8a1PvT6B5FnEtccWTJ371sQG/uqLum7dXSbJq1Qqze1w==}
     engines: {node: '>=14.0.0'}
 
   '@aws-sdk/credential-provider-web-identity@3.398.0':
@@ -623,8 +623,8 @@ packages:
     resolution: {integrity: sha512-R/YAL8Uh8i+dzVjzMnbcWLIGeeRi2mioHVGnVF+minmaIkCiQMZg2HPrdlKm49El+RljT28Nl5YHRuiqzEIwMA==}
     engines: {node: '>=14.0.0'}
 
-  '@aws-sdk/credential-providers@3.563.0':
-    resolution: {integrity: sha512-lXZeYWJw3AWbY8M5xxY3ehUyP7L+UL/snQgEgHTVhdDbLrSF+lG06sFI0UPNxtlc85pkVYaKFHPkiLdGbdIGRA==}
+  '@aws-sdk/credential-providers@3.564.0':
+    resolution: {integrity: sha512-QQrVTPuRRK37IEtCqzGpStfvr5fZMqxlCQFNJ6mDpHOkL1oyrYIrBpWCB4N95dJyoyLsogleDoFZelfjM9HIzQ==}
     engines: {node: '>=14.0.0'}
 
   '@aws-sdk/middleware-bucket-endpoint@3.535.0':
@@ -739,8 +739,8 @@ packages:
     resolution: {integrity: sha512-G2fUfTtU6/1ayYRMu0Pd9Ln4qYSvwJOWCqJMdkDgvXSwdgcOSOLsnAIk1AHGJDAvgLikdCzuyOsdJiexr9Vnww==}
     engines: {node: '>=14.0.0'}
 
-  '@aws-sdk/token-providers@3.556.0':
-    resolution: {integrity: sha512-tvIiugNF0/+2wfuImMrpKjXMx4nCnFWQjQvouObny+wrif/PGqqQYrybwxPJDvzbd965bu1I+QuSv85/ug7xsg==}
+  '@aws-sdk/token-providers@3.564.0':
+    resolution: {integrity: sha512-Kk5ixcl9HjqwzfBJZGQAtsqwKa7Z8P7Mdug837BG8zCJbhf7wwNsmItzXTiAlpVrDZyT8P1yWIxsLOS1YUtmow==}
     engines: {node: '>=14.0.0'}
 
   '@aws-sdk/types@3.387.0':
@@ -1406,8 +1406,8 @@ packages:
     resolution: {integrity: sha512-RzlRISXWqIKEf83FDC9ZtJ3JvuK1l7aGpretf41BCWYrvla2wU8W8MTRNMiPrPJ+1SIqrRC1nZdZ60hD9hRXLg==}
     engines: {node: '>=14.18.0'}
 
-  '@inquirer/type@1.3.0':
-    resolution: {integrity: sha512-RW4Zf6RCTnInRaOZuRHTqAUl+v6VJuQGglir7nW2BkT3OXOphMhkIFhvFRjorBx2l0VwtC/M4No8vYR65TdN9Q==}
+  '@inquirer/type@1.3.1':
+    resolution: {integrity: sha512-Pe3PFccjPVJV1vtlfVvm9OnlbxqdnP5QcscFEFEnK5quChf1ufZtM0r8mR5ToWHMxZOh0s8o/qp9ANGRTo/DAw==}
     engines: {node: '>=18'}
 
   '@isaacs/cliui@8.0.2':
@@ -1957,8 +1957,8 @@ packages:
   '@types/react-dom@18.3.0':
     resolution: {integrity: sha512-EhwApuTmMBmXuFOikhQLIBUn6uFg81SwLMOAUgodJF14SOBOCMdU04gDoYi0WOJJHD144TL32z4yDqCW3dnkQg==}
 
-  '@types/react@18.3.0':
-    resolution: {integrity: sha512-DiUcKjzE6soLyln8NNZmyhcQjVv+WsUIFSqetMN0p8927OztKT4VTfFTqsbAi5oAGIcgOmOajlfBqyptDDjZRw==}
+  '@types/react@18.3.1':
+    resolution: {integrity: sha512-V0kuGBX3+prX+DQ/7r2qsv1NsdfnCLnTgnRJ1pYnxykBhGMz+qj+box5lq7XsO5mtZsBqpjwwTu/7wszPfMBcw==}
 
   '@types/uuid@9.0.8':
     resolution: {integrity: sha512-jg+97EGIcY9AGHJJRaaPVgetKDsrTgbRjQ5Msgjh/DQKEFl0DtyRr/VCOyD1T2R1MNeWPK/u7JoGhlDZnKBAfA==}
@@ -2344,8 +2344,8 @@ packages:
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  electron-to-chromium@1.4.749:
-    resolution: {integrity: sha512-LRMMrM9ITOvue0PoBrvNIraVmuDbJV5QC9ierz/z5VilMdPOVMjOtpICNld3PuXuTZ3CHH/UPxX9gHhAPwi+0Q==}
+  electron-to-chromium@1.4.750:
+    resolution: {integrity: sha512-9ItEpeu15hW5m8jKdriL+BQrgwDTXEL9pn4SkillWFu73ZNNNQ2BKKLS+ZHv2vC9UkNhosAeyfxOf/5OSeTCPA==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -3160,10 +3160,10 @@ packages:
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
-  react-dom@18.3.0:
-    resolution: {integrity: sha512-zaKdLBftQJnvb7FtDIpZtsAIb2MZU087RM8bRDZU8LVCCFYjPTsDZJNFUWPcVz3HFSN1n/caxi0ca4B/aaVQGQ==}
+  react-dom@18.3.1:
+    resolution: {integrity: sha512-5m4nQKp+rZRb09LNH59GM4BxTh9251/ylbKIbpe7TpGxfJ+9kv6BLkLBXIjjspbgbnIBNqlI23tRnTWT0snUIw==}
     peerDependencies:
-      react: ^18.3.0
+      react: ^18.3.1
 
   react-hook-form@7.51.3:
     resolution: {integrity: sha512-cvJ/wbHdhYx8aviSWh28w9ImjmVsb5Y05n1+FW786vEZQJV5STNM0pW6ujS+oiBecb0ARBxJFyAnXj9+GHXACQ==}
@@ -3201,8 +3201,8 @@ packages:
       '@types/react':
         optional: true
 
-  react@18.3.0:
-    resolution: {integrity: sha512-RPutkJftSAldDibyrjuku7q11d3oy6wKOyPe5K1HA/HwwrXcEqBdHsLypkC2FFYjP7bPUa6gbzSBhw4sY2JcDg==}
+  react@18.3.1:
+    resolution: {integrity: sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==}
     engines: {node: '>=0.10.0'}
 
   regenerator-runtime@0.11.1:
@@ -3265,8 +3265,8 @@ packages:
   safer-buffer@2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
 
-  scheduler@0.23.1:
-    resolution: {integrity: sha512-5GKS5JGfiah1O38Vfa9srZE4s3wdHbwjlCrvIookrg2FO9aIwKLOJXuJQFlEfNcVSOXuaL2hzDeY20uVXcUtrw==}
+  scheduler@0.23.2:
+    resolution: {integrity: sha512-UOShsPwz7NrMUqhR6t0hWjFduvOzbtv7toDH1/hIrfRNIDBnnBWd0CwJTGvTpngVlmwGCdP9/Zl/tVrDqcuYzQ==}
 
   semver@6.3.1:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
@@ -3590,8 +3590,8 @@ packages:
       '@types/react':
         optional: true
 
-  use-sync-external-store@1.2.1:
-    resolution: {integrity: sha512-6MCBDr76UJmRpbF8pzP27uIoTocf3tITaMJ52mccgAhMJycuh5A/RL6mDZCTwTisj0Qfeq69FtjMCUX27U78oA==}
+  use-sync-external-store@1.2.2:
+    resolution: {integrity: sha512-PElTlVMwpblvbNqQ82d2n6RjStvdSoNe9FG28kNfz3WiXilJm4DdNkEzRhCZuIDwY8U08WVihhGR5iRqAwfDiw==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
 
@@ -3741,34 +3741,29 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  '@aws-amplify/api-graphql@4.0.30(constructs@10.3.0)':
+  '@aws-amplify/api-graphql@4.0.30':
     dependencies:
       '@aws-amplify/api-rest': 4.0.28(@aws-amplify/core@6.0.28)
       '@aws-amplify/core': 6.0.28
-      '@aws-amplify/data-schema': 0.17.1(@aws-sdk/types@3.387.0)(constructs@10.3.0)
+      '@aws-amplify/data-schema': 0.17.1
       '@aws-sdk/types': 3.387.0
       graphql: 15.8.0
       rxjs: 7.8.1
       tslib: 2.6.2
       uuid: 9.0.1
-    transitivePeerDependencies:
-      - aws-cdk-lib
-      - constructs
 
   '@aws-amplify/api-rest@4.0.28(@aws-amplify/core@6.0.28)':
     dependencies:
       '@aws-amplify/core': 6.0.28
       tslib: 2.6.2
 
-  '@aws-amplify/api@6.0.30(@aws-amplify/core@6.0.28)(constructs@10.3.0)':
+  '@aws-amplify/api@6.0.30(@aws-amplify/core@6.0.28)':
     dependencies:
-      '@aws-amplify/api-graphql': 4.0.30(constructs@10.3.0)
+      '@aws-amplify/api-graphql': 4.0.30
       '@aws-amplify/api-rest': 4.0.28(@aws-amplify/core@6.0.28)
       tslib: 2.6.2
     transitivePeerDependencies:
       - '@aws-amplify/core'
-      - aws-cdk-lib
-      - constructs
 
   '@aws-amplify/appsync-modelgen-plugin@2.11.0(graphql@15.8.0)':
     dependencies:
@@ -3831,20 +3826,20 @@ snapshots:
       - aws-crt
       - zod
 
-  '@aws-amplify/backend-cli@0.9.7(@aws-sdk/credential-provider-node@3.563.0)(@aws-sdk/types@3.535.0)(aws-cdk@2.137.0)(constructs@10.3.0)(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(typescript@5.4.5)':
+  '@aws-amplify/backend-cli@0.9.7(@aws-sdk/credential-provider-node@3.564.0)(@aws-sdk/types@3.535.0)(aws-cdk@2.137.0)(constructs@10.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.4.5)':
     dependencies:
       '@aws-amplify/backend-deployer': 0.4.7(aws-cdk@2.137.0)(constructs@10.3.0)(typescript@5.4.5)
       '@aws-amplify/backend-output-schemas': 0.5.2(zod@3.23.4)
-      '@aws-amplify/backend-secret': 0.4.5(@aws-sdk/types@3.535.0)(constructs@10.3.0)
+      '@aws-amplify/backend-secret': 0.4.6(@aws-sdk/credential-provider-node@3.564.0)(@aws-sdk/types@3.535.0)(constructs@10.3.0)
       '@aws-amplify/cli-core': 0.2.0
       '@aws-amplify/client-config': 0.5.3(constructs@10.3.0)
       '@aws-amplify/deployed-backend-client': 0.3.10(constructs@10.3.0)
-      '@aws-amplify/form-generator': 0.6.1(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
+      '@aws-amplify/form-generator': 0.6.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@aws-amplify/model-generator': 0.2.7(constructs@10.3.0)(zod@3.23.4)
       '@aws-amplify/platform-core': 0.4.4(constructs@10.3.0)
-      '@aws-amplify/sandbox': 0.3.14(aws-cdk@2.137.0)(constructs@10.3.0)(typescript@5.4.5)
-      '@aws-sdk/credential-provider-ini': 3.556.0(@aws-sdk/credential-provider-node@3.563.0)
-      '@aws-sdk/credential-providers': 3.563.0
+      '@aws-amplify/sandbox': 0.3.14(@aws-sdk/credential-provider-node@3.564.0)(aws-cdk@2.137.0)(constructs@10.3.0)(typescript@5.4.5)
+      '@aws-sdk/credential-provider-ini': 3.564.0(@aws-sdk/credential-provider-node@3.564.0)
+      '@aws-sdk/credential-providers': 3.564.0
       '@aws-sdk/region-config-resolver': 3.535.0
       '@aws-sdk/types': 3.535.0
       '@smithy/node-config-provider': 2.3.0
@@ -3936,18 +3931,19 @@ snapshots:
     dependencies:
       '@aws-amplify/platform-core': 0.3.4(constructs@10.3.0)
       '@aws-amplify/plugin-types': 0.7.1(constructs@10.3.0)
-      '@aws-sdk/client-ssm': 3.563.0
+      '@aws-sdk/client-ssm': 3.564.0
     transitivePeerDependencies:
       - aws-cdk-lib
       - aws-crt
       - constructs
 
-  '@aws-amplify/backend-secret@0.4.5(@aws-sdk/types@3.535.0)(constructs@10.3.0)':
+  '@aws-amplify/backend-secret@0.4.6(@aws-sdk/credential-provider-node@3.564.0)(@aws-sdk/types@3.535.0)(constructs@10.3.0)':
     dependencies:
-      '@aws-amplify/platform-core': 0.5.0(@aws-sdk/types@3.535.0)(constructs@10.3.0)
-      '@aws-amplify/plugin-types': 0.9.0(@aws-sdk/types@3.535.0)(constructs@10.3.0)
-      '@aws-sdk/client-ssm': 3.563.0
+      '@aws-amplify/platform-core': 0.5.1(@aws-sdk/credential-provider-node@3.564.0)(@aws-sdk/types@3.535.0)(constructs@10.3.0)
+      '@aws-amplify/plugin-types': 0.10.0(@aws-sdk/types@3.535.0)(constructs@10.3.0)
+      '@aws-sdk/client-ssm': 3.564.0
     transitivePeerDependencies:
+      - '@aws-sdk/credential-provider-node'
       - '@aws-sdk/types'
       - aws-cdk-lib
       - aws-crt
@@ -3963,7 +3959,7 @@ snapshots:
       - aws-crt
       - zod
 
-  '@aws-amplify/backend@0.5.5(@aws-sdk/types@3.535.0)(constructs@10.3.0)(zod@3.23.4)':
+  '@aws-amplify/backend@0.5.5(constructs@10.3.0)(zod@3.23.4)':
     dependencies:
       '@aws-amplify/backend-auth': 0.3.7(constructs@10.3.0)(zod@3.23.4)
       '@aws-amplify/backend-data': 0.8.3(constructs@10.3.0)(zod@3.23.4)
@@ -3972,13 +3968,12 @@ snapshots:
       '@aws-amplify/backend-output-storage': 0.2.11(constructs@10.3.0)(zod@3.23.4)
       '@aws-amplify/backend-secret': 0.3.4(constructs@10.3.0)
       '@aws-amplify/backend-storage': 0.3.2(constructs@10.3.0)(zod@3.23.4)
-      '@aws-amplify/data-schema': 0.12.14(@aws-sdk/types@3.535.0)(constructs@10.3.0)
+      '@aws-amplify/data-schema': 0.12.14
       '@aws-amplify/platform-core': 0.3.4(constructs@10.3.0)
       '@aws-amplify/plugin-types': 0.4.2(constructs@10.3.0)
-      '@aws-sdk/client-amplify': 3.563.0
+      '@aws-sdk/client-amplify': 3.564.0
       constructs: 10.3.0
     transitivePeerDependencies:
-      - '@aws-sdk/types'
       - aws-crt
       - zod
 
@@ -3991,10 +3986,10 @@ snapshots:
       '@aws-amplify/backend-output-schemas': 0.5.2(zod@3.23.4)
       '@aws-amplify/deployed-backend-client': 0.3.10(constructs@10.3.0)
       '@aws-amplify/model-generator': 0.2.7(constructs@10.3.0)(zod@3.23.4)
-      '@aws-sdk/client-amplify': 3.563.0
-      '@aws-sdk/client-cloudformation': 3.563.0
-      '@aws-sdk/client-ssm': 3.563.0
-      '@aws-sdk/credential-providers': 3.563.0
+      '@aws-sdk/client-amplify': 3.564.0
+      '@aws-sdk/client-cloudformation': 3.564.0
+      '@aws-sdk/client-ssm': 3.564.0
+      '@aws-sdk/credential-providers': 3.564.0
       zod: 3.23.4
     transitivePeerDependencies:
       - aws-cdk-lib
@@ -4003,13 +3998,13 @@ snapshots:
       - encoding
       - supports-color
 
-  '@aws-amplify/codegen-ui-react@2.20.1(react-dom@18.3.0(react@18.3.0))(react@18.3.0)':
+  '@aws-amplify/codegen-ui-react@2.20.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@aws-amplify/codegen-ui': 2.20.1
       '@typescript/vfs': 1.3.6
       pluralize: 8.0.0
-      react: 18.3.0
-      react-dom: 18.3.0(react@18.3.0)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
       semver: 7.6.0
       typescript: 4.4.4
     optionalDependencies:
@@ -4038,68 +4033,42 @@ snapshots:
       '@aws-amplify/graphql-api-construct': 1.9.0(constructs@10.3.0)
       constructs: 10.3.0
 
-  '@aws-amplify/data-schema-types@0.10.0(@aws-sdk/types@3.387.0)(constructs@10.3.0)':
-    dependencies:
-      '@aws-amplify/plugin-types': 0.9.0(@aws-sdk/types@3.387.0)(constructs@10.3.0)
-      graphql: 15.8.0
-      rxjs: 7.8.1
-    transitivePeerDependencies:
-      - '@aws-sdk/types'
-      - aws-cdk-lib
-      - constructs
-
-  '@aws-amplify/data-schema-types@0.10.0(@aws-sdk/types@3.535.0)(constructs@10.3.0)':
-    dependencies:
-      '@aws-amplify/plugin-types': 0.9.0(@aws-sdk/types@3.535.0)(constructs@10.3.0)
-      graphql: 15.8.0
-      rxjs: 7.8.1
-    transitivePeerDependencies:
-      - '@aws-sdk/types'
-      - aws-cdk-lib
-      - constructs
-
   '@aws-amplify/data-schema-types@0.6.12':
     dependencies:
       rxjs: 7.8.1
 
-  '@aws-amplify/data-schema@0.12.14(@aws-sdk/types@3.535.0)(constructs@10.3.0)':
+  '@aws-amplify/data-schema-types@1.0.0':
     dependencies:
-      '@aws-amplify/data-schema-types': 0.10.0(@aws-sdk/types@3.535.0)(constructs@10.3.0)
-    transitivePeerDependencies:
-      - '@aws-sdk/types'
-      - aws-cdk-lib
-      - constructs
+      graphql: 15.8.0
+      rxjs: 7.8.1
 
-  '@aws-amplify/data-schema@0.17.1(@aws-sdk/types@3.387.0)(constructs@10.3.0)':
+  '@aws-amplify/data-schema@0.12.14':
     dependencies:
-      '@aws-amplify/data-schema-types': 0.10.0(@aws-sdk/types@3.387.0)(constructs@10.3.0)
+      '@aws-amplify/data-schema-types': 1.0.0
+
+  '@aws-amplify/data-schema@0.17.1':
+    dependencies:
+      '@aws-amplify/data-schema-types': 1.0.0
       '@types/aws-lambda': 8.10.137
       rxjs: 7.8.1
-    transitivePeerDependencies:
-      - '@aws-sdk/types'
-      - aws-cdk-lib
-      - constructs
 
-  '@aws-amplify/datastore@5.0.30(@aws-amplify/core@6.0.28)(constructs@10.3.0)':
+  '@aws-amplify/datastore@5.0.30(@aws-amplify/core@6.0.28)':
     dependencies:
-      '@aws-amplify/api': 6.0.30(@aws-amplify/core@6.0.28)(constructs@10.3.0)
+      '@aws-amplify/api': 6.0.30(@aws-amplify/core@6.0.28)
       '@aws-amplify/core': 6.0.28
       buffer: 4.9.2
       idb: 5.0.6
       immer: 9.0.6
       rxjs: 7.8.1
       ulid: 2.3.0
-    transitivePeerDependencies:
-      - aws-cdk-lib
-      - constructs
 
   '@aws-amplify/deployed-backend-client@0.3.10(constructs@10.3.0)':
     dependencies:
       '@aws-amplify/backend-output-schemas': 0.6.0(zod@3.23.4)
       '@aws-amplify/platform-core': 0.4.4(constructs@10.3.0)
-      '@aws-sdk/client-amplify': 3.563.0
-      '@aws-sdk/client-cloudformation': 3.563.0
-      '@aws-sdk/client-s3': 3.563.0
+      '@aws-sdk/client-amplify': 3.564.0
+      '@aws-sdk/client-cloudformation': 3.564.0
+      '@aws-sdk/client-s3': 3.564.0
       '@aws-sdk/types': 3.535.0
       zod: 3.23.4
     transitivePeerDependencies:
@@ -4107,15 +4076,15 @@ snapshots:
       - aws-crt
       - constructs
 
-  '@aws-amplify/form-generator@0.6.1(react-dom@18.3.0(react@18.3.0))(react@18.3.0)':
+  '@aws-amplify/form-generator@0.6.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@aws-amplify/appsync-modelgen-plugin': 2.11.0(graphql@15.8.0)
       '@aws-amplify/codegen-ui': 2.20.1
-      '@aws-amplify/codegen-ui-react': 2.20.1(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
+      '@aws-amplify/codegen-ui-react': 2.20.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@aws-amplify/graphql-docs-generator': 4.2.1
-      '@aws-sdk/client-amplifyuibuilder': 3.563.0
-      '@aws-sdk/client-appsync': 3.563.0
-      '@aws-sdk/client-s3': 3.563.0
+      '@aws-sdk/client-amplifyuibuilder': 3.564.0
+      '@aws-sdk/client-appsync': 3.564.0
+      '@aws-sdk/client-s3': 3.564.0
       '@graphql-codegen/core': 4.0.2(graphql@15.8.0)
       '@graphql-codegen/typescript': 2.8.8(graphql@15.8.0)
       graphql: 15.8.0
@@ -4206,9 +4175,9 @@ snapshots:
       '@aws-amplify/deployed-backend-client': 0.3.10(constructs@10.3.0)
       '@aws-amplify/graphql-generator': 0.1.5
       '@aws-amplify/graphql-types-generator': 3.6.0
-      '@aws-sdk/client-appsync': 3.563.0
-      '@aws-sdk/client-s3': 3.563.0
-      '@aws-sdk/credential-providers': 3.563.0
+      '@aws-sdk/client-appsync': 3.564.0
+      '@aws-sdk/client-s3': 3.564.0
+      '@aws-sdk/credential-providers': 3.564.0
       '@aws-sdk/types': 3.535.0
       graphql: 15.8.0
     transitivePeerDependencies:
@@ -4250,19 +4219,25 @@ snapshots:
       - aws-crt
       - constructs
 
-  '@aws-amplify/platform-core@0.5.0(@aws-sdk/types@3.535.0)(constructs@10.3.0)':
+  '@aws-amplify/platform-core@0.5.1(@aws-sdk/credential-provider-node@3.564.0)(@aws-sdk/types@3.535.0)(constructs@10.3.0)':
     dependencies:
-      '@aws-amplify/plugin-types': 0.9.0(@aws-sdk/types@3.535.0)(constructs@10.3.0)
-      '@aws-sdk/client-sts': 3.445.0
+      '@aws-amplify/plugin-types': 0.10.0(@aws-sdk/types@3.535.0)(constructs@10.3.0)
+      '@aws-sdk/client-sts': 3.556.0(@aws-sdk/credential-provider-node@3.564.0)
       is-ci: 3.0.1
       lodash.mergewith: 4.6.2
       uuid: 9.0.1
       zod: 3.23.4
     transitivePeerDependencies:
+      - '@aws-sdk/credential-provider-node'
       - '@aws-sdk/types'
       - aws-cdk-lib
       - aws-crt
       - constructs
+
+  '@aws-amplify/plugin-types@0.10.0(@aws-sdk/types@3.535.0)(constructs@10.3.0)':
+    dependencies:
+      '@aws-sdk/types': 3.535.0
+      constructs: 10.3.0
 
   '@aws-amplify/plugin-types@0.4.2(constructs@10.3.0)':
     dependencies:
@@ -4284,26 +4259,16 @@ snapshots:
     dependencies:
       constructs: 10.3.0
 
-  '@aws-amplify/plugin-types@0.9.0(@aws-sdk/types@3.387.0)(constructs@10.3.0)':
-    dependencies:
-      '@aws-sdk/types': 3.387.0
-      constructs: 10.3.0
-
-  '@aws-amplify/plugin-types@0.9.0(@aws-sdk/types@3.535.0)(constructs@10.3.0)':
-    dependencies:
-      '@aws-sdk/types': 3.535.0
-      constructs: 10.3.0
-
-  '@aws-amplify/sandbox@0.3.14(aws-cdk@2.137.0)(constructs@10.3.0)(typescript@5.4.5)':
+  '@aws-amplify/sandbox@0.3.14(@aws-sdk/credential-provider-node@3.564.0)(aws-cdk@2.137.0)(constructs@10.3.0)(typescript@5.4.5)':
     dependencies:
       '@aws-amplify/backend-deployer': 0.4.7(aws-cdk@2.137.0)(constructs@10.3.0)(typescript@5.4.5)
-      '@aws-amplify/backend-secret': 0.4.5(@aws-sdk/types@3.535.0)(constructs@10.3.0)
+      '@aws-amplify/backend-secret': 0.4.6(@aws-sdk/credential-provider-node@3.564.0)(@aws-sdk/types@3.535.0)(constructs@10.3.0)
       '@aws-amplify/cli-core': 0.2.0
       '@aws-amplify/client-config': 0.5.3(constructs@10.3.0)
       '@aws-amplify/deployed-backend-client': 0.3.10(constructs@10.3.0)
       '@aws-amplify/platform-core': 0.4.4(constructs@10.3.0)
-      '@aws-sdk/client-cloudformation': 3.563.0
-      '@aws-sdk/credential-providers': 3.563.0
+      '@aws-sdk/client-cloudformation': 3.564.0
+      '@aws-sdk/credential-providers': 3.564.0
       '@aws-sdk/types': 3.535.0
       '@parcel/watcher': 2.4.1
       aws-cdk: 2.137.0
@@ -4312,6 +4277,7 @@ snapshots:
       open: 9.1.0
       parse-gitignore: 2.0.0
     transitivePeerDependencies:
+      - '@aws-sdk/credential-provider-node'
       - aws-cdk-lib
       - aws-crt
       - constructs
@@ -4337,42 +4303,42 @@ snapshots:
       fast-xml-parser: 4.3.6
       tslib: 2.6.2
 
-  '@aws-amplify/ui-react-core@3.0.13(@types/react@18.3.0)(aws-amplify@6.1.4(constructs@10.3.0))(react@18.3.0)':
+  '@aws-amplify/ui-react-core@3.0.13(@types/react@18.3.1)(aws-amplify@6.1.4)(react@18.3.1)':
     dependencies:
-      '@aws-amplify/ui': 6.0.13(aws-amplify@6.1.4(constructs@10.3.0))(xstate@4.38.3)
-      '@xstate/react': 3.2.2(@types/react@18.3.0)(react@18.3.0)(xstate@4.38.3)
-      aws-amplify: 6.1.4(constructs@10.3.0)
+      '@aws-amplify/ui': 6.0.13(aws-amplify@6.1.4)(xstate@4.38.3)
+      '@xstate/react': 3.2.2(@types/react@18.3.1)(react@18.3.1)(xstate@4.38.3)
+      aws-amplify: 6.1.4
       lodash: 4.17.21
-      react: 18.3.0
-      react-hook-form: 7.51.3(react@18.3.0)
+      react: 18.3.1
+      react-hook-form: 7.51.3(react@18.3.1)
       xstate: 4.38.3
     transitivePeerDependencies:
       - '@types/react'
       - '@xstate/fsm'
 
-  '@aws-amplify/ui-react@6.1.8(@types/react@18.3.0)(aws-amplify@6.1.4(constructs@10.3.0))(react-dom@18.3.0(react@18.3.0))(react@18.3.0)(xstate@4.38.3)':
+  '@aws-amplify/ui-react@6.1.8(@types/react@18.3.1)(aws-amplify@6.1.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(xstate@4.38.3)':
     dependencies:
-      '@aws-amplify/ui': 6.0.13(aws-amplify@6.1.4(constructs@10.3.0))(xstate@4.38.3)
-      '@aws-amplify/ui-react-core': 3.0.13(@types/react@18.3.0)(aws-amplify@6.1.4(constructs@10.3.0))(react@18.3.0)
-      '@radix-ui/react-direction': 1.0.0(react@18.3.0)
-      '@radix-ui/react-dropdown-menu': 1.0.0(@types/react@18.3.0)(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
-      '@radix-ui/react-slider': 1.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
-      '@xstate/react': 3.2.2(@types/react@18.3.0)(react@18.3.0)(xstate@4.38.3)
+      '@aws-amplify/ui': 6.0.13(aws-amplify@6.1.4)(xstate@4.38.3)
+      '@aws-amplify/ui-react-core': 3.0.13(@types/react@18.3.1)(aws-amplify@6.1.4)(react@18.3.1)
+      '@radix-ui/react-direction': 1.0.0(react@18.3.1)
+      '@radix-ui/react-dropdown-menu': 1.0.0(@types/react@18.3.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@radix-ui/react-slider': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@xstate/react': 3.2.2(@types/react@18.3.1)(react@18.3.1)(xstate@4.38.3)
       lodash: 4.17.21
       qrcode: 1.5.0
-      react: 18.3.0
-      react-dom: 18.3.0(react@18.3.0)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
       tslib: 2.6.2
     optionalDependencies:
-      aws-amplify: 6.1.4(constructs@10.3.0)
+      aws-amplify: 6.1.4
     transitivePeerDependencies:
       - '@types/react'
       - '@xstate/fsm'
       - xstate
 
-  '@aws-amplify/ui@6.0.13(aws-amplify@6.1.4(constructs@10.3.0))(xstate@4.38.3)':
+  '@aws-amplify/ui@6.0.13(aws-amplify@6.1.4)(xstate@4.38.3)':
     dependencies:
-      aws-amplify: 6.1.4(constructs@10.3.0)
+      aws-amplify: 6.1.4
       csstype: 3.1.3
       lodash: 4.17.21
       style-dictionary: 3.9.1
@@ -4420,7 +4386,7 @@ snapshots:
   '@aws-crypto/sha256-js@3.0.0':
     dependencies:
       '@aws-crypto/util': 3.0.0
-      '@aws-sdk/types': 3.398.0
+      '@aws-sdk/types': 3.535.0
       tslib: 1.14.1
 
   '@aws-crypto/sha256-js@5.2.0':
@@ -4435,7 +4401,7 @@ snapshots:
 
   '@aws-crypto/util@3.0.0':
     dependencies:
-      '@aws-sdk/types': 3.398.0
+      '@aws-sdk/types': 3.535.0
       '@aws-sdk/util-utf8-browser': 3.259.0
       tslib: 1.14.1
 
@@ -4445,13 +4411,12 @@ snapshots:
       '@smithy/util-utf8': 2.3.0
       tslib: 2.6.2
 
-  '@aws-sdk/client-amplify@3.563.0':
+  '@aws-sdk/client-amplify@3.564.0':
     dependencies:
       '@aws-crypto/sha256-browser': 3.0.0
       '@aws-crypto/sha256-js': 3.0.0
-      '@aws-sdk/client-sts': 3.556.0(@aws-sdk/credential-provider-node@3.563.0)
       '@aws-sdk/core': 3.556.0
-      '@aws-sdk/credential-provider-node': 3.563.0
+      '@aws-sdk/credential-provider-node': 3.564.0
       '@aws-sdk/middleware-host-header': 3.535.0
       '@aws-sdk/middleware-logger': 3.535.0
       '@aws-sdk/middleware-recursion-detection': 3.535.0
@@ -4490,13 +4455,12 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  '@aws-sdk/client-amplifyuibuilder@3.563.0':
+  '@aws-sdk/client-amplifyuibuilder@3.564.0':
     dependencies:
       '@aws-crypto/sha256-browser': 3.0.0
       '@aws-crypto/sha256-js': 3.0.0
-      '@aws-sdk/client-sts': 3.556.0(@aws-sdk/credential-provider-node@3.563.0)
       '@aws-sdk/core': 3.556.0
-      '@aws-sdk/credential-provider-node': 3.563.0
+      '@aws-sdk/credential-provider-node': 3.564.0
       '@aws-sdk/middleware-host-header': 3.535.0
       '@aws-sdk/middleware-logger': 3.535.0
       '@aws-sdk/middleware-recursion-detection': 3.535.0
@@ -4536,13 +4500,12 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  '@aws-sdk/client-appsync@3.563.0':
+  '@aws-sdk/client-appsync@3.564.0':
     dependencies:
       '@aws-crypto/sha256-browser': 3.0.0
       '@aws-crypto/sha256-js': 3.0.0
-      '@aws-sdk/client-sts': 3.556.0(@aws-sdk/credential-provider-node@3.563.0)
       '@aws-sdk/core': 3.556.0
-      '@aws-sdk/credential-provider-node': 3.563.0
+      '@aws-sdk/credential-provider-node': 3.564.0
       '@aws-sdk/middleware-host-header': 3.535.0
       '@aws-sdk/middleware-logger': 3.535.0
       '@aws-sdk/middleware-recursion-detection': 3.535.0
@@ -4582,13 +4545,12 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  '@aws-sdk/client-cloudformation@3.563.0':
+  '@aws-sdk/client-cloudformation@3.564.0':
     dependencies:
       '@aws-crypto/sha256-browser': 3.0.0
       '@aws-crypto/sha256-js': 3.0.0
-      '@aws-sdk/client-sts': 3.556.0(@aws-sdk/credential-provider-node@3.563.0)
       '@aws-sdk/core': 3.556.0
-      '@aws-sdk/credential-provider-node': 3.563.0
+      '@aws-sdk/credential-provider-node': 3.564.0
       '@aws-sdk/middleware-host-header': 3.535.0
       '@aws-sdk/middleware-logger': 3.535.0
       '@aws-sdk/middleware-recursion-detection': 3.535.0
@@ -4629,13 +4591,12 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  '@aws-sdk/client-cognito-identity@3.563.0':
+  '@aws-sdk/client-cognito-identity@3.564.0':
     dependencies:
       '@aws-crypto/sha256-browser': 3.0.0
       '@aws-crypto/sha256-js': 3.0.0
-      '@aws-sdk/client-sts': 3.556.0(@aws-sdk/credential-provider-node@3.563.0)
       '@aws-sdk/core': 3.556.0
-      '@aws-sdk/credential-provider-node': 3.563.0
+      '@aws-sdk/credential-provider-node': 3.564.0
       '@aws-sdk/middleware-host-header': 3.535.0
       '@aws-sdk/middleware-logger': 3.535.0
       '@aws-sdk/middleware-recursion-detection': 3.535.0
@@ -4801,14 +4762,13 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  '@aws-sdk/client-s3@3.563.0':
+  '@aws-sdk/client-s3@3.564.0':
     dependencies:
       '@aws-crypto/sha1-browser': 3.0.0
       '@aws-crypto/sha256-browser': 3.0.0
       '@aws-crypto/sha256-js': 3.0.0
-      '@aws-sdk/client-sts': 3.556.0(@aws-sdk/credential-provider-node@3.563.0)
       '@aws-sdk/core': 3.556.0
-      '@aws-sdk/credential-provider-node': 3.563.0
+      '@aws-sdk/credential-provider-node': 3.564.0
       '@aws-sdk/middleware-bucket-endpoint': 3.535.0
       '@aws-sdk/middleware-expect-continue': 3.535.0
       '@aws-sdk/middleware-flexible-checksums': 3.535.0
@@ -4863,13 +4823,12 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  '@aws-sdk/client-ssm@3.563.0':
+  '@aws-sdk/client-ssm@3.564.0':
     dependencies:
       '@aws-crypto/sha256-browser': 3.0.0
       '@aws-crypto/sha256-js': 3.0.0
-      '@aws-sdk/client-sts': 3.556.0(@aws-sdk/credential-provider-node@3.563.0)
       '@aws-sdk/core': 3.556.0
-      '@aws-sdk/credential-provider-node': 3.563.0
+      '@aws-sdk/credential-provider-node': 3.564.0
       '@aws-sdk/middleware-host-header': 3.535.0
       '@aws-sdk/middleware-logger': 3.535.0
       '@aws-sdk/middleware-recursion-detection': 3.535.0
@@ -4910,13 +4869,12 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  '@aws-sdk/client-sso-oidc@3.556.0(@aws-sdk/credential-provider-node@3.563.0)':
+  '@aws-sdk/client-sso-oidc@3.564.0(@aws-sdk/credential-provider-node@3.564.0)':
     dependencies:
       '@aws-crypto/sha256-browser': 3.0.0
       '@aws-crypto/sha256-js': 3.0.0
-      '@aws-sdk/client-sts': 3.556.0(@aws-sdk/credential-provider-node@3.563.0)
       '@aws-sdk/core': 3.556.0
-      '@aws-sdk/credential-provider-node': 3.563.0
+      '@aws-sdk/credential-provider-node': 3.564.0
       '@aws-sdk/middleware-host-header': 3.535.0
       '@aws-sdk/middleware-logger': 3.535.0
       '@aws-sdk/middleware-recursion-detection': 3.535.0
@@ -5164,12 +5122,12 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  '@aws-sdk/client-sts@3.556.0(@aws-sdk/credential-provider-node@3.563.0)':
+  '@aws-sdk/client-sts@3.556.0(@aws-sdk/credential-provider-node@3.564.0)':
     dependencies:
       '@aws-crypto/sha256-browser': 3.0.0
       '@aws-crypto/sha256-js': 3.0.0
       '@aws-sdk/core': 3.556.0
-      '@aws-sdk/credential-provider-node': 3.563.0
+      '@aws-sdk/credential-provider-node': 3.564.0
       '@aws-sdk/middleware-host-header': 3.535.0
       '@aws-sdk/middleware-logger': 3.535.0
       '@aws-sdk/middleware-recursion-detection': 3.535.0
@@ -5223,9 +5181,9 @@ snapshots:
       fast-xml-parser: 4.2.5
       tslib: 2.6.2
 
-  '@aws-sdk/credential-provider-cognito-identity@3.563.0':
+  '@aws-sdk/credential-provider-cognito-identity@3.564.0':
     dependencies:
-      '@aws-sdk/client-cognito-identity': 3.563.0
+      '@aws-sdk/client-cognito-identity': 3.564.0
       '@aws-sdk/types': 3.535.0
       '@smithy/property-provider': 2.2.0
       '@smithy/types': 2.12.0
@@ -5296,13 +5254,13 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  '@aws-sdk/credential-provider-ini@3.556.0(@aws-sdk/credential-provider-node@3.563.0)':
+  '@aws-sdk/credential-provider-ini@3.564.0(@aws-sdk/credential-provider-node@3.564.0)':
     dependencies:
-      '@aws-sdk/client-sts': 3.556.0(@aws-sdk/credential-provider-node@3.563.0)
+      '@aws-sdk/client-sts': 3.556.0(@aws-sdk/credential-provider-node@3.564.0)
       '@aws-sdk/credential-provider-env': 3.535.0
       '@aws-sdk/credential-provider-process': 3.535.0
-      '@aws-sdk/credential-provider-sso': 3.556.0(@aws-sdk/credential-provider-node@3.563.0)
-      '@aws-sdk/credential-provider-web-identity': 3.556.0(@aws-sdk/credential-provider-node@3.563.0)
+      '@aws-sdk/credential-provider-sso': 3.564.0(@aws-sdk/credential-provider-node@3.564.0)
+      '@aws-sdk/credential-provider-web-identity': 3.556.0(@aws-sdk/credential-provider-node@3.564.0)
       '@aws-sdk/types': 3.535.0
       '@smithy/credential-provider-imds': 2.3.0
       '@smithy/property-provider': 2.2.0
@@ -5345,14 +5303,14 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  '@aws-sdk/credential-provider-node@3.563.0':
+  '@aws-sdk/credential-provider-node@3.564.0':
     dependencies:
       '@aws-sdk/credential-provider-env': 3.535.0
       '@aws-sdk/credential-provider-http': 3.552.0
-      '@aws-sdk/credential-provider-ini': 3.556.0(@aws-sdk/credential-provider-node@3.563.0)
+      '@aws-sdk/credential-provider-ini': 3.564.0(@aws-sdk/credential-provider-node@3.564.0)
       '@aws-sdk/credential-provider-process': 3.535.0
-      '@aws-sdk/credential-provider-sso': 3.556.0(@aws-sdk/credential-provider-node@3.563.0)
-      '@aws-sdk/credential-provider-web-identity': 3.556.0(@aws-sdk/credential-provider-node@3.563.0)
+      '@aws-sdk/credential-provider-sso': 3.564.0(@aws-sdk/credential-provider-node@3.564.0)
+      '@aws-sdk/credential-provider-web-identity': 3.556.0(@aws-sdk/credential-provider-node@3.564.0)
       '@aws-sdk/types': 3.535.0
       '@smithy/credential-provider-imds': 2.3.0
       '@smithy/property-provider': 2.2.0
@@ -5410,10 +5368,10 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  '@aws-sdk/credential-provider-sso@3.556.0(@aws-sdk/credential-provider-node@3.563.0)':
+  '@aws-sdk/credential-provider-sso@3.564.0(@aws-sdk/credential-provider-node@3.564.0)':
     dependencies:
       '@aws-sdk/client-sso': 3.556.0
-      '@aws-sdk/token-providers': 3.556.0(@aws-sdk/credential-provider-node@3.563.0)
+      '@aws-sdk/token-providers': 3.564.0(@aws-sdk/credential-provider-node@3.564.0)
       '@aws-sdk/types': 3.535.0
       '@smithy/property-provider': 2.2.0
       '@smithy/shared-ini-file-loader': 2.4.0
@@ -5437,9 +5395,9 @@ snapshots:
       '@smithy/types': 2.12.0
       tslib: 2.6.2
 
-  '@aws-sdk/credential-provider-web-identity@3.556.0(@aws-sdk/credential-provider-node@3.563.0)':
+  '@aws-sdk/credential-provider-web-identity@3.556.0(@aws-sdk/credential-provider-node@3.564.0)':
     dependencies:
-      '@aws-sdk/client-sts': 3.556.0(@aws-sdk/credential-provider-node@3.563.0)
+      '@aws-sdk/client-sts': 3.556.0(@aws-sdk/credential-provider-node@3.564.0)
       '@aws-sdk/types': 3.535.0
       '@smithy/property-provider': 2.2.0
       '@smithy/types': 2.12.0
@@ -5448,19 +5406,19 @@ snapshots:
       - '@aws-sdk/credential-provider-node'
       - aws-crt
 
-  '@aws-sdk/credential-providers@3.563.0':
+  '@aws-sdk/credential-providers@3.564.0':
     dependencies:
-      '@aws-sdk/client-cognito-identity': 3.563.0
+      '@aws-sdk/client-cognito-identity': 3.564.0
       '@aws-sdk/client-sso': 3.556.0
-      '@aws-sdk/client-sts': 3.556.0(@aws-sdk/credential-provider-node@3.563.0)
-      '@aws-sdk/credential-provider-cognito-identity': 3.563.0
+      '@aws-sdk/client-sts': 3.556.0(@aws-sdk/credential-provider-node@3.564.0)
+      '@aws-sdk/credential-provider-cognito-identity': 3.564.0
       '@aws-sdk/credential-provider-env': 3.535.0
       '@aws-sdk/credential-provider-http': 3.552.0
-      '@aws-sdk/credential-provider-ini': 3.556.0(@aws-sdk/credential-provider-node@3.563.0)
-      '@aws-sdk/credential-provider-node': 3.563.0
+      '@aws-sdk/credential-provider-ini': 3.564.0(@aws-sdk/credential-provider-node@3.564.0)
+      '@aws-sdk/credential-provider-node': 3.564.0
       '@aws-sdk/credential-provider-process': 3.535.0
-      '@aws-sdk/credential-provider-sso': 3.556.0(@aws-sdk/credential-provider-node@3.563.0)
-      '@aws-sdk/credential-provider-web-identity': 3.556.0(@aws-sdk/credential-provider-node@3.563.0)
+      '@aws-sdk/credential-provider-sso': 3.564.0(@aws-sdk/credential-provider-node@3.564.0)
+      '@aws-sdk/credential-provider-web-identity': 3.556.0(@aws-sdk/credential-provider-node@3.564.0)
       '@aws-sdk/types': 3.535.0
       '@smithy/credential-provider-imds': 2.3.0
       '@smithy/property-provider': 2.2.0
@@ -5757,9 +5715,9 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  '@aws-sdk/token-providers@3.556.0(@aws-sdk/credential-provider-node@3.563.0)':
+  '@aws-sdk/token-providers@3.564.0(@aws-sdk/credential-provider-node@3.564.0)':
     dependencies:
-      '@aws-sdk/client-sso-oidc': 3.556.0(@aws-sdk/credential-provider-node@3.563.0)
+      '@aws-sdk/client-sso-oidc': 3.564.0(@aws-sdk/credential-provider-node@3.564.0)
       '@aws-sdk/types': 3.535.0
       '@smithy/property-provider': 2.2.0
       '@smithy/shared-ini-file-loader': 2.4.0
@@ -6278,12 +6236,12 @@ snapshots:
     dependencies:
       '@floating-ui/core': 0.7.3
 
-  '@floating-ui/react-dom@0.7.2(@types/react@18.3.0)(react-dom@18.3.0(react@18.3.0))(react@18.3.0)':
+  '@floating-ui/react-dom@0.7.2(@types/react@18.3.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@floating-ui/dom': 0.5.4
-      react: 18.3.0
-      react-dom: 18.3.0(react@18.3.0)
-      use-isomorphic-layout-effect: 1.1.2(@types/react@18.3.0)(react@18.3.0)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      use-isomorphic-layout-effect: 1.1.2(@types/react@18.3.1)(react@18.3.1)
     transitivePeerDependencies:
       - '@types/react'
 
@@ -6473,7 +6431,7 @@ snapshots:
   '@inquirer/checkbox@1.5.2':
     dependencies:
       '@inquirer/core': 6.0.0
-      '@inquirer/type': 1.3.0
+      '@inquirer/type': 1.3.1
       ansi-escapes: 4.3.2
       chalk: 4.1.2
       figures: 3.2.0
@@ -6481,12 +6439,12 @@ snapshots:
   '@inquirer/confirm@2.0.17':
     dependencies:
       '@inquirer/core': 6.0.0
-      '@inquirer/type': 1.3.0
+      '@inquirer/type': 1.3.1
       chalk: 4.1.2
 
   '@inquirer/core@6.0.0':
     dependencies:
-      '@inquirer/type': 1.3.0
+      '@inquirer/type': 1.3.1
       '@types/mute-stream': 0.0.4
       '@types/node': 20.12.7
       '@types/wrap-ansi': 3.0.0
@@ -6504,27 +6462,27 @@ snapshots:
   '@inquirer/editor@1.2.15':
     dependencies:
       '@inquirer/core': 6.0.0
-      '@inquirer/type': 1.3.0
+      '@inquirer/type': 1.3.1
       chalk: 4.1.2
       external-editor: 3.1.0
 
   '@inquirer/expand@1.1.16':
     dependencies:
       '@inquirer/core': 6.0.0
-      '@inquirer/type': 1.3.0
+      '@inquirer/type': 1.3.1
       chalk: 4.1.2
       figures: 3.2.0
 
   '@inquirer/input@1.2.16':
     dependencies:
       '@inquirer/core': 6.0.0
-      '@inquirer/type': 1.3.0
+      '@inquirer/type': 1.3.1
       chalk: 4.1.2
 
   '@inquirer/password@1.1.16':
     dependencies:
       '@inquirer/core': 6.0.0
-      '@inquirer/type': 1.3.0
+      '@inquirer/type': 1.3.1
       ansi-escapes: 4.3.2
       chalk: 4.1.2
 
@@ -6543,18 +6501,18 @@ snapshots:
   '@inquirer/rawlist@1.2.16':
     dependencies:
       '@inquirer/core': 6.0.0
-      '@inquirer/type': 1.3.0
+      '@inquirer/type': 1.3.1
       chalk: 4.1.2
 
   '@inquirer/select@1.3.3':
     dependencies:
       '@inquirer/core': 6.0.0
-      '@inquirer/type': 1.3.0
+      '@inquirer/type': 1.3.1
       ansi-escapes: 4.3.2
       chalk: 4.1.2
       figures: 3.2.0
 
-  '@inquirer/type@1.3.0': {}
+  '@inquirer/type@1.3.1': {}
 
   '@isaacs/cliui@8.0.2':
     dependencies:
@@ -6692,225 +6650,225 @@ snapshots:
     dependencies:
       '@babel/runtime': 7.24.4
 
-  '@radix-ui/react-arrow@1.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)':
+  '@radix-ui/react-arrow@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.24.4
-      '@radix-ui/react-primitive': 1.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
-      react: 18.3.0
-      react-dom: 18.3.0(react@18.3.0)
+      '@radix-ui/react-primitive': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
 
-  '@radix-ui/react-collection@1.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)':
+  '@radix-ui/react-collection@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.24.4
-      '@radix-ui/react-compose-refs': 1.0.0(react@18.3.0)
-      '@radix-ui/react-context': 1.0.0(react@18.3.0)
-      '@radix-ui/react-primitive': 1.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
-      '@radix-ui/react-slot': 1.0.0(react@18.3.0)
-      react: 18.3.0
-      react-dom: 18.3.0(react@18.3.0)
+      '@radix-ui/react-compose-refs': 1.0.0(react@18.3.1)
+      '@radix-ui/react-context': 1.0.0(react@18.3.1)
+      '@radix-ui/react-primitive': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@radix-ui/react-slot': 1.0.0(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
 
-  '@radix-ui/react-compose-refs@1.0.0(react@18.3.0)':
+  '@radix-ui/react-compose-refs@1.0.0(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.24.4
-      react: 18.3.0
+      react: 18.3.1
 
-  '@radix-ui/react-context@1.0.0(react@18.3.0)':
+  '@radix-ui/react-context@1.0.0(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.24.4
-      react: 18.3.0
+      react: 18.3.1
 
-  '@radix-ui/react-direction@1.0.0(react@18.3.0)':
+  '@radix-ui/react-direction@1.0.0(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.24.4
-      react: 18.3.0
+      react: 18.3.1
 
-  '@radix-ui/react-dismissable-layer@1.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)':
+  '@radix-ui/react-dismissable-layer@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.24.4
       '@radix-ui/primitive': 1.0.0
-      '@radix-ui/react-compose-refs': 1.0.0(react@18.3.0)
-      '@radix-ui/react-primitive': 1.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
-      '@radix-ui/react-use-callback-ref': 1.0.0(react@18.3.0)
-      '@radix-ui/react-use-escape-keydown': 1.0.0(react@18.3.0)
-      react: 18.3.0
-      react-dom: 18.3.0(react@18.3.0)
+      '@radix-ui/react-compose-refs': 1.0.0(react@18.3.1)
+      '@radix-ui/react-primitive': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@radix-ui/react-use-callback-ref': 1.0.0(react@18.3.1)
+      '@radix-ui/react-use-escape-keydown': 1.0.0(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
 
-  '@radix-ui/react-dropdown-menu@1.0.0(@types/react@18.3.0)(react-dom@18.3.0(react@18.3.0))(react@18.3.0)':
+  '@radix-ui/react-dropdown-menu@1.0.0(@types/react@18.3.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.24.4
       '@radix-ui/primitive': 1.0.0
-      '@radix-ui/react-compose-refs': 1.0.0(react@18.3.0)
-      '@radix-ui/react-context': 1.0.0(react@18.3.0)
-      '@radix-ui/react-id': 1.0.0(react@18.3.0)
-      '@radix-ui/react-menu': 1.0.0(@types/react@18.3.0)(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
-      '@radix-ui/react-primitive': 1.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
-      '@radix-ui/react-use-controllable-state': 1.0.0(react@18.3.0)
-      react: 18.3.0
-      react-dom: 18.3.0(react@18.3.0)
+      '@radix-ui/react-compose-refs': 1.0.0(react@18.3.1)
+      '@radix-ui/react-context': 1.0.0(react@18.3.1)
+      '@radix-ui/react-id': 1.0.0(react@18.3.1)
+      '@radix-ui/react-menu': 1.0.0(@types/react@18.3.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@radix-ui/react-primitive': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@radix-ui/react-use-controllable-state': 1.0.0(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
     transitivePeerDependencies:
       - '@types/react'
 
-  '@radix-ui/react-focus-guards@1.0.0(react@18.3.0)':
+  '@radix-ui/react-focus-guards@1.0.0(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.24.4
-      react: 18.3.0
+      react: 18.3.1
 
-  '@radix-ui/react-focus-scope@1.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)':
+  '@radix-ui/react-focus-scope@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.24.4
-      '@radix-ui/react-compose-refs': 1.0.0(react@18.3.0)
-      '@radix-ui/react-primitive': 1.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
-      '@radix-ui/react-use-callback-ref': 1.0.0(react@18.3.0)
-      react: 18.3.0
-      react-dom: 18.3.0(react@18.3.0)
+      '@radix-ui/react-compose-refs': 1.0.0(react@18.3.1)
+      '@radix-ui/react-primitive': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@radix-ui/react-use-callback-ref': 1.0.0(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
 
-  '@radix-ui/react-id@1.0.0(react@18.3.0)':
+  '@radix-ui/react-id@1.0.0(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.24.4
-      '@radix-ui/react-use-layout-effect': 1.0.0(react@18.3.0)
-      react: 18.3.0
+      '@radix-ui/react-use-layout-effect': 1.0.0(react@18.3.1)
+      react: 18.3.1
 
-  '@radix-ui/react-menu@1.0.0(@types/react@18.3.0)(react-dom@18.3.0(react@18.3.0))(react@18.3.0)':
+  '@radix-ui/react-menu@1.0.0(@types/react@18.3.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.24.4
       '@radix-ui/primitive': 1.0.0
-      '@radix-ui/react-collection': 1.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
-      '@radix-ui/react-compose-refs': 1.0.0(react@18.3.0)
-      '@radix-ui/react-context': 1.0.0(react@18.3.0)
-      '@radix-ui/react-direction': 1.0.0(react@18.3.0)
-      '@radix-ui/react-dismissable-layer': 1.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
-      '@radix-ui/react-focus-guards': 1.0.0(react@18.3.0)
-      '@radix-ui/react-focus-scope': 1.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
-      '@radix-ui/react-id': 1.0.0(react@18.3.0)
-      '@radix-ui/react-popper': 1.0.0(@types/react@18.3.0)(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
-      '@radix-ui/react-portal': 1.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
-      '@radix-ui/react-presence': 1.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
-      '@radix-ui/react-primitive': 1.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
-      '@radix-ui/react-roving-focus': 1.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
-      '@radix-ui/react-slot': 1.0.0(react@18.3.0)
-      '@radix-ui/react-use-callback-ref': 1.0.0(react@18.3.0)
+      '@radix-ui/react-collection': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@radix-ui/react-compose-refs': 1.0.0(react@18.3.1)
+      '@radix-ui/react-context': 1.0.0(react@18.3.1)
+      '@radix-ui/react-direction': 1.0.0(react@18.3.1)
+      '@radix-ui/react-dismissable-layer': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@radix-ui/react-focus-guards': 1.0.0(react@18.3.1)
+      '@radix-ui/react-focus-scope': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@radix-ui/react-id': 1.0.0(react@18.3.1)
+      '@radix-ui/react-popper': 1.0.0(@types/react@18.3.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@radix-ui/react-portal': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@radix-ui/react-presence': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@radix-ui/react-primitive': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@radix-ui/react-roving-focus': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@radix-ui/react-slot': 1.0.0(react@18.3.1)
+      '@radix-ui/react-use-callback-ref': 1.0.0(react@18.3.1)
       aria-hidden: 1.2.4
-      react: 18.3.0
-      react-dom: 18.3.0(react@18.3.0)
-      react-remove-scroll: 2.5.4(@types/react@18.3.0)(react@18.3.0)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      react-remove-scroll: 2.5.4(@types/react@18.3.1)(react@18.3.1)
     transitivePeerDependencies:
       - '@types/react'
 
-  '@radix-ui/react-popper@1.0.0(@types/react@18.3.0)(react-dom@18.3.0(react@18.3.0))(react@18.3.0)':
+  '@radix-ui/react-popper@1.0.0(@types/react@18.3.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.24.4
-      '@floating-ui/react-dom': 0.7.2(@types/react@18.3.0)(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
-      '@radix-ui/react-arrow': 1.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
-      '@radix-ui/react-compose-refs': 1.0.0(react@18.3.0)
-      '@radix-ui/react-context': 1.0.0(react@18.3.0)
-      '@radix-ui/react-primitive': 1.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
-      '@radix-ui/react-use-layout-effect': 1.0.0(react@18.3.0)
-      '@radix-ui/react-use-rect': 1.0.0(react@18.3.0)
-      '@radix-ui/react-use-size': 1.0.0(react@18.3.0)
+      '@floating-ui/react-dom': 0.7.2(@types/react@18.3.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@radix-ui/react-arrow': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@radix-ui/react-compose-refs': 1.0.0(react@18.3.1)
+      '@radix-ui/react-context': 1.0.0(react@18.3.1)
+      '@radix-ui/react-primitive': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@radix-ui/react-use-layout-effect': 1.0.0(react@18.3.1)
+      '@radix-ui/react-use-rect': 1.0.0(react@18.3.1)
+      '@radix-ui/react-use-size': 1.0.0(react@18.3.1)
       '@radix-ui/rect': 1.0.0
-      react: 18.3.0
-      react-dom: 18.3.0(react@18.3.0)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
     transitivePeerDependencies:
       - '@types/react'
 
-  '@radix-ui/react-portal@1.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)':
+  '@radix-ui/react-portal@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.24.4
-      '@radix-ui/react-primitive': 1.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
-      react: 18.3.0
-      react-dom: 18.3.0(react@18.3.0)
+      '@radix-ui/react-primitive': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
 
-  '@radix-ui/react-presence@1.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)':
+  '@radix-ui/react-presence@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.24.4
-      '@radix-ui/react-compose-refs': 1.0.0(react@18.3.0)
-      '@radix-ui/react-use-layout-effect': 1.0.0(react@18.3.0)
-      react: 18.3.0
-      react-dom: 18.3.0(react@18.3.0)
+      '@radix-ui/react-compose-refs': 1.0.0(react@18.3.1)
+      '@radix-ui/react-use-layout-effect': 1.0.0(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
 
-  '@radix-ui/react-primitive@1.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)':
+  '@radix-ui/react-primitive@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.24.4
-      '@radix-ui/react-slot': 1.0.0(react@18.3.0)
-      react: 18.3.0
-      react-dom: 18.3.0(react@18.3.0)
+      '@radix-ui/react-slot': 1.0.0(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
 
-  '@radix-ui/react-roving-focus@1.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)':
+  '@radix-ui/react-roving-focus@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.24.4
       '@radix-ui/primitive': 1.0.0
-      '@radix-ui/react-collection': 1.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
-      '@radix-ui/react-compose-refs': 1.0.0(react@18.3.0)
-      '@radix-ui/react-context': 1.0.0(react@18.3.0)
-      '@radix-ui/react-direction': 1.0.0(react@18.3.0)
-      '@radix-ui/react-id': 1.0.0(react@18.3.0)
-      '@radix-ui/react-primitive': 1.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
-      '@radix-ui/react-use-callback-ref': 1.0.0(react@18.3.0)
-      '@radix-ui/react-use-controllable-state': 1.0.0(react@18.3.0)
-      react: 18.3.0
-      react-dom: 18.3.0(react@18.3.0)
+      '@radix-ui/react-collection': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@radix-ui/react-compose-refs': 1.0.0(react@18.3.1)
+      '@radix-ui/react-context': 1.0.0(react@18.3.1)
+      '@radix-ui/react-direction': 1.0.0(react@18.3.1)
+      '@radix-ui/react-id': 1.0.0(react@18.3.1)
+      '@radix-ui/react-primitive': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@radix-ui/react-use-callback-ref': 1.0.0(react@18.3.1)
+      '@radix-ui/react-use-controllable-state': 1.0.0(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
 
-  '@radix-ui/react-slider@1.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)':
+  '@radix-ui/react-slider@1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.24.4
       '@radix-ui/number': 1.0.0
       '@radix-ui/primitive': 1.0.0
-      '@radix-ui/react-collection': 1.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
-      '@radix-ui/react-compose-refs': 1.0.0(react@18.3.0)
-      '@radix-ui/react-context': 1.0.0(react@18.3.0)
-      '@radix-ui/react-direction': 1.0.0(react@18.3.0)
-      '@radix-ui/react-primitive': 1.0.0(react-dom@18.3.0(react@18.3.0))(react@18.3.0)
-      '@radix-ui/react-use-controllable-state': 1.0.0(react@18.3.0)
-      '@radix-ui/react-use-layout-effect': 1.0.0(react@18.3.0)
-      '@radix-ui/react-use-previous': 1.0.0(react@18.3.0)
-      '@radix-ui/react-use-size': 1.0.0(react@18.3.0)
-      react: 18.3.0
-      react-dom: 18.3.0(react@18.3.0)
+      '@radix-ui/react-collection': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@radix-ui/react-compose-refs': 1.0.0(react@18.3.1)
+      '@radix-ui/react-context': 1.0.0(react@18.3.1)
+      '@radix-ui/react-direction': 1.0.0(react@18.3.1)
+      '@radix-ui/react-primitive': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@radix-ui/react-use-controllable-state': 1.0.0(react@18.3.1)
+      '@radix-ui/react-use-layout-effect': 1.0.0(react@18.3.1)
+      '@radix-ui/react-use-previous': 1.0.0(react@18.3.1)
+      '@radix-ui/react-use-size': 1.0.0(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
 
-  '@radix-ui/react-slot@1.0.0(react@18.3.0)':
+  '@radix-ui/react-slot@1.0.0(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.24.4
-      '@radix-ui/react-compose-refs': 1.0.0(react@18.3.0)
-      react: 18.3.0
+      '@radix-ui/react-compose-refs': 1.0.0(react@18.3.1)
+      react: 18.3.1
 
-  '@radix-ui/react-use-callback-ref@1.0.0(react@18.3.0)':
+  '@radix-ui/react-use-callback-ref@1.0.0(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.24.4
-      react: 18.3.0
+      react: 18.3.1
 
-  '@radix-ui/react-use-controllable-state@1.0.0(react@18.3.0)':
+  '@radix-ui/react-use-controllable-state@1.0.0(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.24.4
-      '@radix-ui/react-use-callback-ref': 1.0.0(react@18.3.0)
-      react: 18.3.0
+      '@radix-ui/react-use-callback-ref': 1.0.0(react@18.3.1)
+      react: 18.3.1
 
-  '@radix-ui/react-use-escape-keydown@1.0.0(react@18.3.0)':
+  '@radix-ui/react-use-escape-keydown@1.0.0(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.24.4
-      '@radix-ui/react-use-callback-ref': 1.0.0(react@18.3.0)
-      react: 18.3.0
+      '@radix-ui/react-use-callback-ref': 1.0.0(react@18.3.1)
+      react: 18.3.1
 
-  '@radix-ui/react-use-layout-effect@1.0.0(react@18.3.0)':
+  '@radix-ui/react-use-layout-effect@1.0.0(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.24.4
-      react: 18.3.0
+      react: 18.3.1
 
-  '@radix-ui/react-use-previous@1.0.0(react@18.3.0)':
+  '@radix-ui/react-use-previous@1.0.0(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.24.4
-      react: 18.3.0
+      react: 18.3.1
 
-  '@radix-ui/react-use-rect@1.0.0(react@18.3.0)':
+  '@radix-ui/react-use-rect@1.0.0(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.24.4
       '@radix-ui/rect': 1.0.0
-      react: 18.3.0
+      react: 18.3.1
 
-  '@radix-ui/react-use-size@1.0.0(react@18.3.0)':
+  '@radix-ui/react-use-size@1.0.0(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.24.4
-      '@radix-ui/react-use-layout-effect': 1.0.0(react@18.3.0)
-      react: 18.3.0
+      '@radix-ui/react-use-layout-effect': 1.0.0(react@18.3.1)
+      react: 18.3.1
 
   '@radix-ui/rect@1.0.0':
     dependencies:
@@ -7270,9 +7228,9 @@ snapshots:
 
   '@types/react-dom@18.3.0':
     dependencies:
-      '@types/react': 18.3.0
+      '@types/react': 18.3.1
 
-  '@types/react@18.3.0':
+  '@types/react@18.3.1':
     dependencies:
       '@types/prop-types': 15.7.12
       csstype: 3.1.3
@@ -7302,11 +7260,11 @@ snapshots:
       fast-querystring: 1.1.2
       tslib: 2.6.2
 
-  '@xstate/react@3.2.2(@types/react@18.3.0)(react@18.3.0)(xstate@4.38.3)':
+  '@xstate/react@3.2.2(@types/react@18.3.1)(react@18.3.1)(xstate@4.38.3)':
     dependencies:
-      react: 18.3.0
-      use-isomorphic-layout-effect: 1.1.2(@types/react@18.3.0)(react@18.3.0)
-      use-sync-external-store: 1.2.1(react@18.3.0)
+      react: 18.3.1
+      use-isomorphic-layout-effect: 1.1.2(@types/react@18.3.1)(react@18.3.1)
+      use-sync-external-store: 1.2.2(react@18.3.1)
     optionalDependencies:
       xstate: 4.38.3
     transitivePeerDependencies:
@@ -7374,20 +7332,18 @@ snapshots:
     dependencies:
       possible-typed-array-names: 1.0.0
 
-  aws-amplify@6.1.4(constructs@10.3.0):
+  aws-amplify@6.1.4:
     dependencies:
       '@aws-amplify/analytics': 7.0.28(@aws-amplify/core@6.0.28)
-      '@aws-amplify/api': 6.0.30(@aws-amplify/core@6.0.28)(constructs@10.3.0)
+      '@aws-amplify/api': 6.0.30(@aws-amplify/core@6.0.28)
       '@aws-amplify/auth': 6.2.1(@aws-amplify/core@6.0.28)
       '@aws-amplify/core': 6.0.28
-      '@aws-amplify/datastore': 5.0.30(@aws-amplify/core@6.0.28)(constructs@10.3.0)
+      '@aws-amplify/datastore': 5.0.30(@aws-amplify/core@6.0.28)
       '@aws-amplify/notifications': 2.0.28(@aws-amplify/core@6.0.28)
       '@aws-amplify/storage': 6.3.1(@aws-amplify/core@6.0.28)
       tslib: 2.6.2
     transitivePeerDependencies:
-      - aws-cdk-lib
       - aws-crt
-      - constructs
 
   aws-cdk@2.137.0:
     optionalDependencies:
@@ -7481,7 +7437,7 @@ snapshots:
   browserslist@4.23.0:
     dependencies:
       caniuse-lite: 1.0.30001612
-      electron-to-chromium: 1.4.749
+      electron-to-chromium: 1.4.750
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.23.0)
 
@@ -7747,7 +7703,7 @@ snapshots:
 
   eastasianwidth@0.2.0: {}
 
-  electron-to-chromium@1.4.749: {}
+  electron-to-chromium@1.4.750: {}
 
   emoji-regex@8.0.0: {}
 
@@ -8404,16 +8360,16 @@ snapshots:
 
   neo-async@2.6.2: {}
 
-  next@13.5.4(@babel/core@7.24.4)(react-dom@18.3.0(react@18.3.0))(react@18.3.0):
+  next@13.5.4(@babel/core@7.24.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       '@next/env': 13.5.4
       '@swc/helpers': 0.5.2
       busboy: 1.6.0
       caniuse-lite: 1.0.30001612
       postcss: 8.4.31
-      react: 18.3.0
-      react-dom: 18.3.0(react@18.3.0)
-      styled-jsx: 5.1.1(@babel/core@7.24.4)(react@18.3.0)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      styled-jsx: 5.1.1(@babel/core@7.24.4)(react@18.3.1)
       watchpack: 2.4.0
     optionalDependencies:
       '@next/swc-darwin-arm64': 13.5.4
@@ -8590,45 +8546,45 @@ snapshots:
 
   queue-microtask@1.2.3: {}
 
-  react-dom@18.3.0(react@18.3.0):
+  react-dom@18.3.1(react@18.3.1):
     dependencies:
       loose-envify: 1.4.0
-      react: 18.3.0
-      scheduler: 0.23.1
+      react: 18.3.1
+      scheduler: 0.23.2
 
-  react-hook-form@7.51.3(react@18.3.0):
+  react-hook-form@7.51.3(react@18.3.1):
     dependencies:
-      react: 18.3.0
+      react: 18.3.1
 
-  react-remove-scroll-bar@2.3.6(@types/react@18.3.0)(react@18.3.0):
+  react-remove-scroll-bar@2.3.6(@types/react@18.3.1)(react@18.3.1):
     dependencies:
-      react: 18.3.0
-      react-style-singleton: 2.2.1(@types/react@18.3.0)(react@18.3.0)
+      react: 18.3.1
+      react-style-singleton: 2.2.1(@types/react@18.3.1)(react@18.3.1)
       tslib: 2.6.2
     optionalDependencies:
-      '@types/react': 18.3.0
+      '@types/react': 18.3.1
 
-  react-remove-scroll@2.5.4(@types/react@18.3.0)(react@18.3.0):
+  react-remove-scroll@2.5.4(@types/react@18.3.1)(react@18.3.1):
     dependencies:
-      react: 18.3.0
-      react-remove-scroll-bar: 2.3.6(@types/react@18.3.0)(react@18.3.0)
-      react-style-singleton: 2.2.1(@types/react@18.3.0)(react@18.3.0)
+      react: 18.3.1
+      react-remove-scroll-bar: 2.3.6(@types/react@18.3.1)(react@18.3.1)
+      react-style-singleton: 2.2.1(@types/react@18.3.1)(react@18.3.1)
       tslib: 2.6.2
-      use-callback-ref: 1.3.2(@types/react@18.3.0)(react@18.3.0)
-      use-sidecar: 1.1.2(@types/react@18.3.0)(react@18.3.0)
+      use-callback-ref: 1.3.2(@types/react@18.3.1)(react@18.3.1)
+      use-sidecar: 1.1.2(@types/react@18.3.1)(react@18.3.1)
     optionalDependencies:
-      '@types/react': 18.3.0
+      '@types/react': 18.3.1
 
-  react-style-singleton@2.2.1(@types/react@18.3.0)(react@18.3.0):
+  react-style-singleton@2.2.1(@types/react@18.3.1)(react@18.3.1):
     dependencies:
       get-nonce: 1.0.1
       invariant: 2.2.4
-      react: 18.3.0
+      react: 18.3.1
       tslib: 2.6.2
     optionalDependencies:
-      '@types/react': 18.3.0
+      '@types/react': 18.3.1
 
-  react@18.3.0:
+  react@18.3.1:
     dependencies:
       loose-envify: 1.4.0
 
@@ -8696,7 +8652,7 @@ snapshots:
 
   safer-buffer@2.1.2: {}
 
-  scheduler@0.23.1:
+  scheduler@0.23.2:
     dependencies:
       loose-envify: 1.4.0
 
@@ -8836,10 +8792,10 @@ snapshots:
       lodash: 4.17.21
       tinycolor2: 1.6.0
 
-  styled-jsx@5.1.1(@babel/core@7.24.4)(react@18.3.0):
+  styled-jsx@5.1.1(@babel/core@7.24.4)(react@18.3.1):
     dependencies:
       client-only: 0.0.1
-      react: 18.3.0
+      react: 18.3.1
     optionalDependencies:
       '@babel/core': 7.24.4
 
@@ -8984,30 +8940,30 @@ snapshots:
 
   urlpattern-polyfill@10.0.0: {}
 
-  use-callback-ref@1.3.2(@types/react@18.3.0)(react@18.3.0):
+  use-callback-ref@1.3.2(@types/react@18.3.1)(react@18.3.1):
     dependencies:
-      react: 18.3.0
+      react: 18.3.1
       tslib: 2.6.2
     optionalDependencies:
-      '@types/react': 18.3.0
+      '@types/react': 18.3.1
 
-  use-isomorphic-layout-effect@1.1.2(@types/react@18.3.0)(react@18.3.0):
+  use-isomorphic-layout-effect@1.1.2(@types/react@18.3.1)(react@18.3.1):
     dependencies:
-      react: 18.3.0
+      react: 18.3.1
     optionalDependencies:
-      '@types/react': 18.3.0
+      '@types/react': 18.3.1
 
-  use-sidecar@1.1.2(@types/react@18.3.0)(react@18.3.0):
+  use-sidecar@1.1.2(@types/react@18.3.1)(react@18.3.1):
     dependencies:
       detect-node-es: 1.1.0
-      react: 18.3.0
+      react: 18.3.1
       tslib: 2.6.2
     optionalDependencies:
-      '@types/react': 18.3.0
+      '@types/react': 18.3.1
 
-  use-sync-external-store@1.2.1(react@18.3.0):
+  use-sync-external-store@1.2.2(react@18.3.1):
     dependencies:
-      react: 18.3.0
+      react: 18.3.1
 
   uuid@9.0.1: {}
 
