@@ -1480,8 +1480,8 @@ packages:
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
 
-  '@graphql-tools/utils@10.2.1':
-    resolution: {integrity: sha512-U8OMdkkEt3Vp3uYHU2pMc6mwId7axVAcSSmcqJcUmWNPqY2pfee5O655ybTI2kNPWAe58Zu6gLu4Oi4QT4BgWA==}
+  '@graphql-tools/utils@10.2.2':
+    resolution: {integrity: sha512-ueoplzHIgFfxhFrF4Mf/niU/tYHuO6Uekm2nCYU72qpI+7Hn9dA2/o5XOBvFXDk27Lp5VSvQY5WfmRbqwVxaYQ==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
@@ -2711,8 +2711,8 @@ packages:
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  electron-to-chromium@1.4.797:
-    resolution: {integrity: sha512-RWMYymqyWwIdCEb7Psag5zyAHirYnB354ZREoF8c5QOHbt8AodF7lwVxGUnu5gzBVjzDo9R3XeTwy7pbvubxGw==}
+  electron-to-chromium@1.4.798:
+    resolution: {integrity: sha512-by9J2CiM9KPGj9qfp5U4FcPSbXJG7FNzqnYaY4WLzX+v2PHieVGmnsA4dxfpGE3QEC7JofpPZmn7Vn1B9NR2+Q==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -7280,7 +7280,7 @@ snapshots:
     dependencies:
       '@graphql-codegen/plugin-helpers': 5.0.4(graphql@15.8.0)
       '@graphql-tools/schema': 10.0.4(graphql@15.8.0)
-      '@graphql-tools/utils': 10.2.1(graphql@15.8.0)
+      '@graphql-tools/utils': 10.2.2(graphql@15.8.0)
       graphql: 15.8.0
       tslib: 2.6.3
 
@@ -7305,7 +7305,7 @@ snapshots:
 
   '@graphql-codegen/plugin-helpers@5.0.4(graphql@15.8.0)':
     dependencies:
-      '@graphql-tools/utils': 10.2.1(graphql@15.8.0)
+      '@graphql-tools/utils': 10.2.2(graphql@15.8.0)
       change-case-all: 1.0.15
       common-tags: 1.8.2
       graphql: 15.8.0
@@ -7369,7 +7369,7 @@ snapshots:
   '@graphql-tools/apollo-engine-loader@8.0.1(graphql@15.8.0)':
     dependencies:
       '@ardatan/sync-fetch': 0.0.1
-      '@graphql-tools/utils': 10.2.1(graphql@15.8.0)
+      '@graphql-tools/utils': 10.2.2(graphql@15.8.0)
       '@whatwg-node/fetch': 0.9.18
       graphql: 15.8.0
       tslib: 2.6.3
@@ -7384,21 +7384,21 @@ snapshots:
 
   '@graphql-tools/merge@9.0.4(graphql@15.8.0)':
     dependencies:
-      '@graphql-tools/utils': 10.2.1(graphql@15.8.0)
+      '@graphql-tools/utils': 10.2.2(graphql@15.8.0)
       graphql: 15.8.0
       tslib: 2.6.3
 
   '@graphql-tools/optimize@1.4.0(graphql@15.8.0)':
     dependencies:
       graphql: 15.8.0
-      tslib: 2.6.3
+      tslib: 2.4.1
 
   '@graphql-tools/relay-operation-optimizer@6.5.18(graphql@15.8.0)':
     dependencies:
       '@ardatan/relay-compiler': 12.0.0(graphql@15.8.0)
       '@graphql-tools/utils': 9.2.1(graphql@15.8.0)
       graphql: 15.8.0
-      tslib: 2.6.3
+      tslib: 2.4.1
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -7406,7 +7406,7 @@ snapshots:
   '@graphql-tools/schema@10.0.4(graphql@15.8.0)':
     dependencies:
       '@graphql-tools/merge': 9.0.4(graphql@15.8.0)
-      '@graphql-tools/utils': 10.2.1(graphql@15.8.0)
+      '@graphql-tools/utils': 10.2.2(graphql@15.8.0)
       graphql: 15.8.0
       tslib: 2.6.3
       value-or-promise: 1.0.12
@@ -7419,7 +7419,7 @@ snapshots:
       tslib: 2.4.1
       value-or-promise: 1.0.12
 
-  '@graphql-tools/utils@10.2.1(graphql@15.8.0)':
+  '@graphql-tools/utils@10.2.2(graphql@15.8.0)':
     dependencies:
       '@graphql-typed-document-node/core': 3.2.0(graphql@15.8.0)
       cross-inspect: 1.0.0
@@ -8743,7 +8743,7 @@ snapshots:
   browserslist@4.23.1:
     dependencies:
       caniuse-lite: 1.0.30001632
-      electron-to-chromium: 1.4.797
+      electron-to-chromium: 1.4.798
       node-releases: 2.0.14
       update-browserslist-db: 1.0.16(browserslist@4.23.1)
 
@@ -9031,7 +9031,7 @@ snapshots:
 
   eastasianwidth@0.2.0: {}
 
-  electron-to-chromium@1.4.797: {}
+  electron-to-chromium@1.4.798: {}
 
   emoji-regex@8.0.0: {}
 
@@ -9392,7 +9392,7 @@ snapshots:
   graphql-tag@2.12.6(graphql@15.8.0):
     dependencies:
       graphql: 15.8.0
-      tslib: 2.3.1
+      tslib: 2.4.1
 
   graphql-transformer-common@4.30.1:
     dependencies:
@@ -9549,7 +9549,7 @@ snapshots:
 
   is-lower-case@2.0.2:
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.4.1
 
   is-negative-zero@2.0.3: {}
 
@@ -9596,7 +9596,7 @@ snapshots:
 
   is-upper-case@2.0.2:
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.4.1
 
   is-weakref@1.0.2:
     dependencies:
@@ -10214,7 +10214,7 @@ snapshots:
 
   sponge-case@1.0.1:
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.4.1
 
   sqlstring@2.3.3: {}
 
@@ -10300,7 +10300,7 @@ snapshots:
 
   swap-case@2.0.2:
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.4.1
 
   tarn@3.0.2: {}
 
@@ -10310,7 +10310,7 @@ snapshots:
 
   title-case@3.0.3:
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.4.1
 
   titleize@3.0.0: {}
 
