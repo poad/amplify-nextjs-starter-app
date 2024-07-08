@@ -3345,8 +3345,8 @@ packages:
   lower-case@2.0.2:
     resolution: {integrity: sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==}
 
-  lru-cache@10.3.1:
-    resolution: {integrity: sha512-9/8QXrtbGeMB6LxwQd4x1tIMnsmUxMvIH/qWGsccz6bt9Uln3S+sgAaqfQNhbGA8ufzs2fHuP/yqapGgP9Hh2g==}
+  lru-cache@10.4.0:
+    resolution: {integrity: sha512-bfJaPTuEiTYBu+ulDaeQ0F+uLmlfFkMgXj4cbwfuMSjgObGMzb55FMMbDvbRU0fAHZ4sLGkz2mKwcMg8Dvm8Ww==}
     engines: {node: '>=18'}
 
   lru-cache@5.1.1:
@@ -7430,14 +7430,14 @@ snapshots:
   '@graphql-tools/optimize@1.4.0(graphql@15.9.0)':
     dependencies:
       graphql: 15.9.0
-      tslib: 2.6.3
+      tslib: 2.4.1
 
   '@graphql-tools/relay-operation-optimizer@6.5.18(graphql@15.9.0)':
     dependencies:
       '@ardatan/relay-compiler': 12.0.0(graphql@15.9.0)
       '@graphql-tools/utils': 9.2.1(graphql@15.9.0)
       graphql: 15.9.0
-      tslib: 2.6.3
+      tslib: 2.4.1
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -9434,7 +9434,7 @@ snapshots:
   graphql-tag@2.12.6(graphql@15.9.0):
     dependencies:
       graphql: 15.9.0
-      tslib: 2.3.1
+      tslib: 2.4.1
 
   graphql-transformer-common@4.31.1:
     dependencies:
@@ -9593,7 +9593,7 @@ snapshots:
 
   is-lower-case@2.0.2:
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.4.1
 
   is-negative-zero@2.0.3: {}
 
@@ -9640,7 +9640,7 @@ snapshots:
 
   is-upper-case@2.0.2:
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.4.1
 
   is-weakref@1.0.2:
     dependencies:
@@ -9740,7 +9740,7 @@ snapshots:
     dependencies:
       tslib: 2.6.3
 
-  lru-cache@10.3.1: {}
+  lru-cache@10.4.0: {}
 
   lru-cache@5.1.1:
     dependencies:
@@ -9970,7 +9970,7 @@ snapshots:
 
   path-scurry@1.11.1:
     dependencies:
-      lru-cache: 10.3.1
+      lru-cache: 10.4.0
       minipass: 7.1.2
 
   path-type@4.0.0: {}
@@ -10260,7 +10260,7 @@ snapshots:
 
   sponge-case@1.0.1:
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.4.1
 
   sqlstring@2.3.3: {}
 
@@ -10346,7 +10346,7 @@ snapshots:
 
   swap-case@2.0.2:
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.4.1
 
   tarn@3.0.2: {}
 
@@ -10356,7 +10356,7 @@ snapshots:
 
   title-case@3.0.3:
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.4.1
 
   titleize@3.0.0: {}
 
