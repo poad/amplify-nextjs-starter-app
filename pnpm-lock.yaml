@@ -1492,8 +1492,8 @@ packages:
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
 
-  '@graphql-tools/utils@10.3.1':
-    resolution: {integrity: sha512-Yhk1F0MNk4/ctgl3d0DKq++ZPovvZuh1ixWuUEVAxrFloYOAVwJ+rvGI1lsopArdJly8QXClT9lkvOxQszMw/w==}
+  '@graphql-tools/utils@10.3.2':
+    resolution: {integrity: sha512-iaqOHS4f90KNADBHqVsRBjKpM6iSvsUg1q5GhWMK03loYLaDzftrEwcsl0OkSSnRhJvAsT7q4q3r3YzRoV0v1g==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
@@ -2487,8 +2487,8 @@ packages:
     resolution: {integrity: sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==}
     engines: {node: '>=6'}
 
-  caniuse-lite@1.0.30001641:
-    resolution: {integrity: sha512-Phv5thgl67bHYo1TtMY/MurjkHhV4EDaCosezRXgZ8jzA/Ub+wjxAvbGvjoFENStinwi5kCyOYV3mi5tOGykwA==}
+  caniuse-lite@1.0.30001642:
+    resolution: {integrity: sha512-3XQ0DoRgLijXJErLSl+bLnJ+Et4KqV1PY6JJBGAFlsNsz31zeAIncyeZfLCabHK/jtSh+671RM9YMldxjUPZtA==}
 
   capital-case@1.0.4:
     resolution: {integrity: sha512-ds37W8CytHgwnhGGTi88pcPyR15qoNkOpYwmMMfnWqqWgESapLqvDx6huFjQ5vqWSn2Z06173XNA7LtMOeUh1A==}
@@ -7315,7 +7315,7 @@ snapshots:
     dependencies:
       '@graphql-codegen/plugin-helpers': 5.0.4(graphql@15.9.0)
       '@graphql-tools/schema': 10.0.4(graphql@15.9.0)
-      '@graphql-tools/utils': 10.3.1(graphql@15.9.0)
+      '@graphql-tools/utils': 10.3.2(graphql@15.9.0)
       graphql: 15.9.0
       tslib: 2.6.3
 
@@ -7340,7 +7340,7 @@ snapshots:
 
   '@graphql-codegen/plugin-helpers@5.0.4(graphql@15.9.0)':
     dependencies:
-      '@graphql-tools/utils': 10.3.1(graphql@15.9.0)
+      '@graphql-tools/utils': 10.3.2(graphql@15.9.0)
       change-case-all: 1.0.15
       common-tags: 1.8.2
       graphql: 15.9.0
@@ -7404,7 +7404,7 @@ snapshots:
   '@graphql-tools/apollo-engine-loader@8.0.1(graphql@15.9.0)':
     dependencies:
       '@ardatan/sync-fetch': 0.0.1
-      '@graphql-tools/utils': 10.3.1(graphql@15.9.0)
+      '@graphql-tools/utils': 10.3.2(graphql@15.9.0)
       '@whatwg-node/fetch': 0.9.18
       graphql: 15.9.0
       tslib: 2.6.3
@@ -7419,7 +7419,7 @@ snapshots:
 
   '@graphql-tools/merge@9.0.4(graphql@15.9.0)':
     dependencies:
-      '@graphql-tools/utils': 10.3.1(graphql@15.9.0)
+      '@graphql-tools/utils': 10.3.2(graphql@15.9.0)
       graphql: 15.9.0
       tslib: 2.6.3
 
@@ -7441,7 +7441,7 @@ snapshots:
   '@graphql-tools/schema@10.0.4(graphql@15.9.0)':
     dependencies:
       '@graphql-tools/merge': 9.0.4(graphql@15.9.0)
-      '@graphql-tools/utils': 10.3.1(graphql@15.9.0)
+      '@graphql-tools/utils': 10.3.2(graphql@15.9.0)
       graphql: 15.9.0
       tslib: 2.6.3
       value-or-promise: 1.0.12
@@ -7454,7 +7454,7 @@ snapshots:
       tslib: 2.4.1
       value-or-promise: 1.0.12
 
-  '@graphql-tools/utils@10.3.1(graphql@15.9.0)':
+  '@graphql-tools/utils@10.3.2(graphql@15.9.0)':
     dependencies:
       '@graphql-typed-document-node/core': 3.2.0(graphql@15.9.0)
       cross-inspect: 1.0.0
@@ -8779,7 +8779,7 @@ snapshots:
 
   browserslist@4.23.2:
     dependencies:
-      caniuse-lite: 1.0.30001641
+      caniuse-lite: 1.0.30001642
       electron-to-chromium: 1.4.827
       node-releases: 2.0.14
       update-browserslist-db: 1.1.0(browserslist@4.23.2)
@@ -8824,7 +8824,7 @@ snapshots:
 
   camelcase@5.3.1: {}
 
-  caniuse-lite@1.0.30001641: {}
+  caniuse-lite@1.0.30001642: {}
 
   capital-case@1.0.4:
     dependencies:
@@ -9813,7 +9813,7 @@ snapshots:
       '@next/env': 14.2.5
       '@swc/helpers': 0.5.5
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001641
+      caniuse-lite: 1.0.30001642
       graceful-fs: 4.2.11
       postcss: 8.4.31
       react: 18.3.1
