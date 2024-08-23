@@ -8747,7 +8747,7 @@ snapshots:
 
   is-lower-case@2.0.2:
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.6.3
 
   is-negative-zero@2.0.3: {}
 
@@ -8794,7 +8794,7 @@ snapshots:
 
   is-upper-case@2.0.2:
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.6.3
 
   is-weakref@1.0.2:
     dependencies:
@@ -9412,7 +9412,7 @@ snapshots:
 
   sponge-case@1.0.1:
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.6.3
 
   sqlstring@2.3.3: {}
 
@@ -9486,7 +9486,7 @@ snapshots:
 
   swap-case@2.0.2:
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.6.3
 
   tarn@3.0.2: {}
 
@@ -9494,7 +9494,7 @@ snapshots:
 
   title-case@3.0.3:
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.6.3
 
   titleize@3.0.0: {}
 
