@@ -4748,9 +4748,9 @@ snapshots:
       '@aws-crypto/sha256-js': 5.2.0
       '@aws-crypto/supports-web-crypto': 5.2.0
       '@aws-crypto/util': 5.2.0
-      '@aws-sdk/types': 3.654.0
+      '@aws-sdk/types': 3.609.0
       '@aws-sdk/util-locate-window': 3.568.0
-      '@smithy/util-utf8': 2.3.0
+      '@smithy/util-utf8': 2.0.0
       tslib: 2.7.0
 
   '@aws-crypto/sha256-js@5.2.0':
@@ -7206,7 +7206,7 @@ snapshots:
       cross-inspect: 1.0.1
       dset: 3.1.4
       graphql: 15.9.0
-      tslib: 2.7.0
+      tslib: 2.6.3
 
   '@graphql-tools/utils@6.2.4(graphql@15.9.0)':
     dependencies:
@@ -8463,7 +8463,7 @@ snapshots:
 
   cross-inspect@1.0.1:
     dependencies:
-      tslib: 2.7.0
+      tslib: 2.6.3
 
   cross-spawn@7.0.3:
     dependencies:
@@ -9078,7 +9078,7 @@ snapshots:
 
   is-lower-case@2.0.2:
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.4.1
 
   is-negative-zero@2.0.3: {}
 
@@ -9125,7 +9125,7 @@ snapshots:
 
   is-upper-case@2.0.2:
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.4.1
 
   is-weakref@1.0.2:
     dependencies:
@@ -9221,7 +9221,7 @@ snapshots:
 
   lower-case@2.0.2:
     dependencies:
-      tslib: 2.7.0
+      tslib: 2.4.1
 
   lru-cache@10.4.3: {}
 
@@ -9745,7 +9745,7 @@ snapshots:
 
   sponge-case@1.0.1:
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.4.1
 
   sqlstring@2.3.3: {}
 
@@ -9819,7 +9819,7 @@ snapshots:
 
   swap-case@2.0.2:
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.4.1
 
   tarn@3.0.2: {}
 
@@ -9827,7 +9827,7 @@ snapshots:
 
   title-case@3.0.3:
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.4.1
 
   titleize@3.0.0: {}
 
@@ -9946,11 +9946,11 @@ snapshots:
 
   upper-case-first@2.0.2:
     dependencies:
-      tslib: 2.7.0
+      tslib: 2.4.1
 
   upper-case@2.0.2:
     dependencies:
-      tslib: 2.7.0
+      tslib: 2.4.1
 
   urlpattern-polyfill@10.0.0: {}
 
