@@ -311,8 +311,8 @@ packages:
   '@aws-amplify/data-schema-types@1.2.0':
     resolution: {integrity: sha512-1hy2r7jl3hQ5J/CGjhmPhFPcdGSakfme1ZLjlTMJZILfYifZLSlGRKNCelMb3J5N9203hyeT5XDi5yR47JL1TQ==}
 
-  '@aws-amplify/data-schema@1.18.0':
-    resolution: {integrity: sha512-/beeCfX9SvDaa+5mv/bk/oqa7SIRk/9sFflN4b1ZhwDwlOsF5if6Gg3TTNEKCtsCwyBkKO6r5AIDb3cg4TIpuw==}
+  '@aws-amplify/data-schema@1.19.0':
+    resolution: {integrity: sha512-M+5Jo9LU/Y5KhCZt1A22PLtb/NzQwKNji02f04GwPUWaGy47mjYfW6PC56zotDT39t8uiQvKHItYjZYZX7qbEg==}
 
   '@aws-amplify/datastore@5.0.74':
     resolution: {integrity: sha512-IDa6tjlJju63Rr9loXPynPA5cRFITpz0EidcGfBV9nOZDVk03/tagh1LilGH3zOY7B0H+MA3HDu+/LCG05ZS0Q==}
@@ -4866,7 +4866,7 @@ snapshots:
     dependencies:
       '@aws-amplify/api-rest': 4.0.72(@aws-amplify/core@6.10.3)
       '@aws-amplify/core': 6.10.3
-      '@aws-amplify/data-schema': 1.18.0
+      '@aws-amplify/data-schema': 1.19.0
       '@aws-sdk/types': 3.387.0
       graphql: 15.8.0
       rxjs: 7.8.2
@@ -4883,7 +4883,7 @@ snapshots:
       '@aws-amplify/api-graphql': 4.7.7
       '@aws-amplify/api-rest': 4.0.72(@aws-amplify/core@6.10.3)
       '@aws-amplify/core': 6.10.3
-      '@aws-amplify/data-schema': 1.18.0
+      '@aws-amplify/data-schema': 1.19.0
       rxjs: 7.8.2
       tslib: 2.8.1
 
@@ -5078,7 +5078,7 @@ snapshots:
       '@aws-amplify/backend-secret': 1.1.6(@aws-sdk/types@3.734.0)(aws-cdk-lib@2.141.0(constructs@10.3.0))(constructs@10.3.0)
       '@aws-amplify/backend-storage': 1.2.4(@aws-sdk/types@3.734.0)(aws-cdk-lib@2.141.0(constructs@10.3.0))(constructs@10.3.0)(zod@3.24.2)
       '@aws-amplify/client-config': 1.5.7(@aws-sdk/client-amplify@3.758.0)(@aws-sdk/client-cloudformation@3.758.0)(@aws-sdk/client-s3@3.758.0)(@aws-sdk/types@3.734.0)(aws-cdk-lib@2.141.0(constructs@10.3.0))(constructs@10.3.0)
-      '@aws-amplify/data-schema': 1.18.0
+      '@aws-amplify/data-schema': 1.19.0
       '@aws-amplify/platform-core': 1.6.3(@aws-sdk/types@3.734.0)(aws-cdk-lib@2.141.0(constructs@10.3.0))(constructs@10.3.0)
       '@aws-amplify/plugin-types': 1.8.0(@aws-sdk/types@3.734.0)(aws-cdk-lib@2.141.0(constructs@10.3.0))(constructs@10.3.0)
       '@aws-sdk/client-amplify': 3.758.0
@@ -5168,7 +5168,7 @@ snapshots:
       graphql: 15.8.0
       rxjs: 7.8.2
 
-  '@aws-amplify/data-schema@1.18.0':
+  '@aws-amplify/data-schema@1.19.0':
     dependencies:
       '@aws-amplify/data-schema-types': 1.2.0
       '@smithy/util-base64': 3.0.0
@@ -10446,7 +10446,7 @@ snapshots:
 
   lower-case@2.0.2:
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.8.1
 
   lru-cache@10.4.3: {}
 
@@ -11312,11 +11312,11 @@ snapshots:
 
   upper-case-first@2.0.2:
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.8.1
 
   upper-case@2.0.2:
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.8.1
 
   urlpattern-polyfill@10.0.0: {}
 
